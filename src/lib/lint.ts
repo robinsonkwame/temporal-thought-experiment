@@ -111,7 +111,7 @@ export function openingsOf(reply: string): Opening[] {
 export function lintFindings(r: LintReport): string[] {
   const out: string[] = [];
   r.accounts.forEach((a, i) => {
-    if (a.words < WORD_RANGE[0] || a.words > WORD_RANGE[1]) out.push(`Account ${i + 1} has ${a.words} words; the prompt asks for 900 to 1,200.`);
+    if (a.words < WORD_RANGE[0] || a.words > WORD_RANGE[1]) out.push(`Account ${i + 1} has ${a.words.toLocaleString('en-GB')} words; the prompt asks for 900 to 1,200.`);
     if (a.paragraphs < PARAGRAPH_RANGE[0] || a.paragraphs > PARAGRAPH_RANGE[1]) out.push(`Account ${i + 1} has ${a.paragraphs} paragraphs; the prompt asks for 8 to 12.`);
   });
   out.push(...r.tagProblems);

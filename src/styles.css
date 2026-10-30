@@ -242,3 +242,17 @@ dl.fields dd { margin: 0; white-space: pre-wrap; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }
+
+.contents { display: contents; }
+.slot-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--gap); align-items: start; }
+.raw.sticky { position: sticky; top: 8px; max-height: calc(100vh - 16px); }
+.slot-field.is-missing textarea { border-color: var(--error); border-style: dashed; }
+.setting.is-chosen { border-color: var(--accent); border-width: 2px; }
+details > summary { cursor: pointer; font-weight: 600; margin: 8px 0; }
+@media (max-width: 860px) { .slot-layout { grid-template-columns: minmax(0, 1fr); } }
+.grid-3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 var(--gap); }
+.pre { white-space: pre-wrap; }
+.openings li { margin-bottom: 8px; }
+.lint-findings { margin: 4px 0 8px; padding-left: 1.2em; }
+.edit-form { border-top: 1px solid var(--line); padding-top: 10px; }
+@media (max-width: 860px) { .grid-3 { grid-template-columns: minmax(0, 1fr); } }
