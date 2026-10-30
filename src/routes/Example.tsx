@@ -38,7 +38,12 @@ export function Example() {
   const banner = (
     <Banner>
       <p>This is the worked run from the paper (prompt version 2.4). Make a copy to explore it, or to run Provoke again with version 2.5.</p>
-      {EXAMPLE.notes?.map((n, i) => <p key={i} className="muted">{n}</p>)}
+      {EXAMPLE.notes?.length ? (
+        <details>
+          <summary>Notes on the example</summary>
+          {EXAMPLE.notes.map((n, i) => <p key={i} className="muted">{n}</p>)}
+        </details>
+      ) : null}
       {!asking ? (
         <button type="button" className="button primary small" onClick={() => setAsking(true)}>Make a copy</button>
       ) : (

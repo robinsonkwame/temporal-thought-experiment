@@ -233,7 +233,8 @@ dl.fields dd { margin: 0; white-space: pre-wrap; }
   .rail { position: static; max-height: none; overflow-x: auto; display: flex; gap: 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
   .rail-phase { flex: none; }
   .rail ol { display: flex; gap: 4px; }
-  .rail a { width: 9.5em; height: 100%; }
+  .rail { position: relative; }
+  .rail a { width: 9.5em; }
   .rail-phase-name { margin-top: 0; }
   .step { padding: 14px; }
   .field-row, .grid-2, .side-by-side { grid-template-columns: minmax(0, 1fr); }
