@@ -1,0 +1,128 @@
+// The stage 2 lint (brief, section 8.4). It flags; it never rejects.
+import type { LintReport } from './types';
+import { clean, parseOpenings, type Opening } from './parse';
+import { parseSyntheticTables } from './paths';
+import { wordCount, escapeRe } from './text';
+
+export const FIXED_BANNED = ['theory', 'construct', 'variable', 'path', 'relationship', 'mediation', 'moderation', 'correlation',
+  'condition', 'mechanism', 'temporal', 'entrainment', 'dimension', 'scale', 'TRIZ', 'inventive', 'contradiction', 'principle',
+  'ideality', 'ideal final result', 'resource', 'segmentation', 'merging', 'inversion', 'intermediary', 'the other way round',
+  'another dimension', 'blessing in disguise', 'secondary problem'];
+
+export const WORD_RANGE = [900, 1200] as const;
+export const PARAGRAPH_RANGE = [8, 12] as const;
+
+/** Items of T_TERMS_TO_EXCLUDE, with parenthetical remarks such as "(as a term)" stripped. */
+export function excludedTerms(tTermsToExclude: string): string[] {
+  return tTermsToExclude.split(/[,;\n]/).map((t) => t.replace(/\([^)]*\)/g, '').trim().replace(/\.$/, '')).filter(Boolean);
+}
+
+export interface Paragraph { tag: string; text: string }
+export interface Stage2Parts {
+  part1: string; part2: string; part3: string | null;
+  accounts: { title: string; heading: string; paragraphs: Paragraph[]; preamble: string }[];
+}
+
+function findLine(lines: string[], prefix: string, from = 0): number {
+  for (let i = from; i < lines.length; i++) if (clean(lines[i]).toUpperCase().startsWith(prefix)) return i;
+  return -1;
+}
+
+export function splitStage2(reply: string): Stage2Parts {
+  const lines = reply.replace(/\r\n/g, '\n').split('\n');
+  const p1 = findLine(lines, 'PART 1.');
+  const p2 = findLine(lines, 'PART 2.');
+  const p3 = findLine(lines, 'PART 3.');
+  const end1 = p2 >= 0 ? p2 : p3 >= 0 ? p3 : lines.length;
+  const part1Lines = lines.slice(p1 + 1, end1);
+  const part2 = p2 >= 0 ? lines.slice(p2 + 1, p3 > p2 ? p3 : undefined).join('\n') : '';
+  const part3 = p3 >= 0 ? lines.slice(p3 + 1).join('\n') : null;
+
+  const accounts: Stage2Parts['accounts'] = [];
+  const starts = part1Lines.map((l, i) => (/^Account [12] \(/.test(clean(l)) ? i : -1)).filter((i) => i >= 0);
+  starts.forEach((s, k) => {
+    const chunk = part1Lines.slice(s + 1, k + 1 < starts.length ? starts[k + 1] : undefined);
+    const heading = clean(part1Lines[s]);
+    const title = heading.replace(/^Account [12] \([^)]*\):?\s*/, '').trim();
+    const paragraphs: Paragraph[] = [];
+    const pre: string[] = [];
+    for (const line of chunk) {
+      const m = line.trim().match(/^\**\[(N[12]\.\d+)\]\**\s*(.*)$/);
+      if (m) paragraphs.push({ tag: m[1], text: m[2] });
+      else if (paragraphs.length) paragraphs[paragraphs.length - 1].text += `\n${line}`;
+      else pre.push(line);
+    }
+    for (const p of paragraphs) p.text = p.text.trim();
+    accounts.push({ title, heading, paragraphs, preamble: pre.join('\n').trim() });
+  });
+  return { part1: part1Lines.join('\n'), part2, part3, accounts };
+}
+
+export function lintStage2(reply: string, opts: { termsToExclude?: string; expectPart3: boolean }): LintReport {
+  const parts = splitStage2(reply);
+  const tagProblems: string[] = [];
+  if (!parts.accounts.length) tagProblems.push('No line beginning "Account 1 (" was found.');
+
+  const accounts = parts.accounts.map((a, k) => {
+    const n = k + 1;
+    const tags = a.paragraphs.map((p) => p.tag);
+    tags.forEach((t, i) => {
+      if (t !== `N${n}.${i + 1}`) tagProblems.push(`Account ${n}: tag [${t}] where [N${n}.${i + 1}] was expected.`);
+    });
+    if (a.preamble) tagProblems.push(`Account ${n}: text before the first tag.`);
+    const words = a.paragraphs.reduce((s, p) => s + wordCount(p.text), 0);
+    return { title: a.title, words, paragraphs: a.paragraphs.length, tags };
+  });
+  if (parts.accounts.length === 1) tagProblems.push('Only one account was found.');
+  const seen = new Set<string>();
+  for (const a of accounts) for (const t of a.tags) {
+    if (seen.has(t)) tagProblems.push(`Tag [${t}] appears more than once.`);
+    seen.add(t);
+  }
+
+  const terms = [...new Set([...excludedTerms(opts.termsToExclude ?? ''), ...FIXED_BANNED])];
+  const res = terms.map((term) => ({ term, re: new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(term).replace(/ /g, '\\s+')}(?![\\p{L}\\p{N}])`, 'iu') }));
+  const bannedTerms: LintReport['bannedTerms'] = [];
+  const emDashes: LintReport['emDashes'] = [];
+  for (const a of parts.accounts) for (const p of a.paragraphs) {
+    for (const { term, re } of res) if (re.test(p.text)) bannedTerms.push({ term, tag: p.tag });
+    const count = (p.text.match(/—/g) ?? []).length;
+    if (count) emDashes.push({ tag: p.tag, count });
+  }
+
+  const tables = parseSyntheticTables(parts.part2);
+  const tablesFound = (['A', 'B', 'C'] as const).filter((x) => tables[x]);
+  const closingSentence = /(^|\n)\s*\**Synthetic data generated by the language model/.test(parts.part2 || reply);
+
+  const report: LintReport = { accounts, bannedTerms, emDashes, tagProblems, tablesFound, closingSentence };
+  if (opts.expectPart3 || parts.part3 !== null) {
+    const { openings, untagged } = parseOpenings(parts.part3 ?? '');
+    report.openings = { count: openings.length, untagged, unknownTags: openings.map((o) => o.tag).filter((t) => !seen.has(t)) };
+  }
+  return report;
+}
+
+export function openingsOf(reply: string): Opening[] {
+  const p3 = splitStage2(reply).part3;
+  return p3 === null ? [] : parseOpenings(p3).openings;
+}
+
+/** Plain-language findings of a lint report, for the screen and the protocol. */
+export function lintFindings(r: LintReport): string[] {
+  const out: string[] = [];
+  r.accounts.forEach((a, i) => {
+    if (a.words < WORD_RANGE[0] || a.words > WORD_RANGE[1]) out.push(`Account ${i + 1} has ${a.words} words; the prompt asks for 900 to 1,200.`);
+    if (a.paragraphs < PARAGRAPH_RANGE[0] || a.paragraphs > PARAGRAPH_RANGE[1]) out.push(`Account ${i + 1} has ${a.paragraphs} paragraphs; the prompt asks for 8 to 12.`);
+  });
+  out.push(...r.tagProblems);
+  for (const b of r.bannedTerms) out.push(`“${b.term}” in [${b.tag}].`);
+  for (const e of r.emDashes) out.push(`${e.count} em dash${e.count > 1 ? 'es' : ''} in [${e.tag}].`);
+  for (const t of ['A', 'B', 'C'] as const) if (!r.tablesFound.includes(t)) out.push(`Table ${t} was not found.`);
+  if (!r.closingSentence) out.push('The closing sentence "Synthetic data generated by the language model …" was not found.');
+  if (r.openings) {
+    if (r.openings.count < 4 || r.openings.count > 6) out.push(`Part 3 has ${r.openings.count} questions; the prompt asks for four to six.`);
+    if (r.openings.untagged) out.push(`Part 3 has ${r.openings.untagged} question${r.openings.untagged > 1 ? 's' : ''} without a tag.`);
+    for (const t of r.openings.unknownTags) out.push(`Part 3 cites [${t}], which is not a paragraph of Part 1.`);
+  }
+  return out;
+}
