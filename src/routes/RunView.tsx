@@ -4,6 +4,8 @@ import { Rail } from '../components/Rail';
 import { RunContext, type RunCtx } from '../components/RunContext';
 import { STEP_COMPONENTS } from '../steps';
 import { RunToolbar } from './RunToolbar';
+import { DebugPanel } from '../components/DebugPanel';
+import { isDebug } from '../lib/debug';
 
 export function RunView({ ctx, banner, status }: { ctx: RunCtx; banner?: ReactNode; status?: ReactNode }) {
   const params = useParams();
@@ -26,6 +28,7 @@ export function RunView({ ctx, banner, status }: { ctx: RunCtx; banner?: ReactNo
           <Step />
         </div>
       </div>
+      {isDebug() && <DebugPanel />}
     </RunContext.Provider>
   );
 }

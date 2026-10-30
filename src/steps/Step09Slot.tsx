@@ -12,6 +12,7 @@ import { parseSlotReply } from '../lib/parse';
 import { serializeBlock } from '../lib/block';
 import { recordCopy, recordPaste, promptChanged } from '../lib/exchange';
 import { normWs, fmtDateTime } from '../lib/text';
+import { expectedReply } from '../lib/debug';
 
 type Slot = NonNullable<Run['provoke']['slot']>;
 
@@ -102,7 +103,7 @@ export function Step09Slot() {
       )}
       <PromptBox label="Prompt 1: the slot prompt" text={prompt} copiedAt={last?.replyText === undefined ? last?.copiedAt : undefined}
         onCopied={editable ? () => set((s) => { s.attempts = recordCopy(s.attempts, prompt, (e) => e); }) : undefined} />
-      {editable && <PasteBack onUse={usePaste} />}
+      {editable && <PasteBack onUse={usePaste} expected={expectedReply(9, run)} />}
 
       {slot && slot.attempts.length > 1 && (
         <p className="muted">{slot.attempts.length} attempts are kept in the protocol.</p>

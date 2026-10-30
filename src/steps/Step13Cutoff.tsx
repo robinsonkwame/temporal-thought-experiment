@@ -7,6 +7,7 @@ import { assembleCutoffPrompt } from '../lib/assemble';
 import { copyOne, pasteOne, promptChanged } from '../lib/exchange';
 import { fmtDateTime } from '../lib/text';
 import { NeedsBlock } from './Step10Stage1';
+import { expectedReply } from '../lib/debug';
 
 export function Step13Cutoff() {
   const { run, update, editable } = useRun();
@@ -20,7 +21,7 @@ export function Step13Cutoff() {
       <PromptBox label="Prompt 4: cut-off check" text={prompt} copiedAt={ex?.copiedAt}
         onCopied={editable ? () => update(13, (d) => { d.provoke.cutoff = { exchange: copyOne(d.provoke.cutoff?.exchange, prompt) }; }, 'none') : undefined} />
       {editable && (
-        <PasteBack onUse={(text) => {
+        <PasteBack expected={expectedReply(13, run)} onUse={(text) => {
           if (ex?.replyText && !window.confirm('Replace the reply? The earlier reply is kept in the log of this run.')) return;
           update(13, (d) => {
             if (d.provoke.cutoff?.exchange.replyText) addLog(d, 13, 'Reply to prompt 4 replaced', d.provoke.cutoff.exchange.replyText);

@@ -10,6 +10,7 @@ import { assembleStage1Prompt } from '../lib/assemble';
 import { parseStage1, STAGE1_LABELS } from '../lib/parse';
 import { copyOne, pasteOne, promptChanged } from '../lib/exchange';
 import { fmtDateTime } from '../lib/text';
+import { expectedReply, useDebugAction, EXPECTED_CHOICE } from '../lib/debug';
 
 type S1 = NonNullable<Run['provoke']['stage1']>;
 
@@ -26,6 +27,9 @@ export function Step10Stage1() {
   useEffect(() => { setPick(s1?.chosen); setReason(s1?.reason ?? ''); }, [s1?.chosen, s1?.reason]);
   const set = (fn: (s: S1, d: Run) => void, kind: 'none' | 'choose' = 'none') =>
     update(10, (d) => { d.provoke.stage1 ??= { exchange: { promptText: '' }, settings: [] }; fn(d.provoke.stage1, d); }, kind);
+  useDebugAction('choice', editable && s1?.settings.some((s) => s.number === EXPECTED_CHOICE.number)
+    ? `Choose setting ${EXPECTED_CHOICE.number} with the reason of the paper’s run` : null,
+    () => { setPick(EXPECTED_CHOICE.number); setReason(EXPECTED_CHOICE.reason); });
   const warnings = s1?.exchange.replyText ? parseStage1(s1.exchange.replyText, run.templateVersion).warnings : [];
 
   function usePaste(text: string) {
@@ -44,7 +48,7 @@ export function Step10Stage1() {
       {promptChanged(s1?.exchange, prompt) && <Banner kind="warn">The prompt changed after you copied it. Copy it again before you run it.</Banner>}
       <PromptBox label="Prompt 2: stage 1" text={prompt} copiedAt={s1?.exchange.copiedAt}
         onCopied={editable ? () => set((s) => { s.exchange = copyOne(s.exchange.promptText ? s.exchange : undefined, prompt); }) : undefined} />
-      {editable && <PasteBack onUse={usePaste} />}
+      {editable && <PasteBack onUse={usePaste} expected={expectedReply(10, run)} />}
       {warnings.length > 0 && <Banner kind="warn">{warnings.map((w, i) => <p key={i}>{w}</p>)}</Banner>}
 
       {s1 && s1.settings.length > 0 && (

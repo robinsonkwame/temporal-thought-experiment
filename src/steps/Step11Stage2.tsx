@@ -14,6 +14,7 @@ import { lintFindings, openingsOf, WORD_RANGE, PARAGRAPH_RANGE } from '../lib/li
 import { recordCopy, recordPaste } from '../lib/exchange';
 import { runFromQuestion } from '../lib/run';
 import { fmtDateTime } from '../lib/text';
+import { expectedReply } from '../lib/debug';
 import type { LintReport } from '../lib/types';
 
 type S2 = NonNullable<Run['provoke']['stage2']>;
@@ -153,7 +154,7 @@ export function Step11Stage2() {
         copiedAt={pending && pending.replyText === undefined ? pending.copiedAt : undefined}
         onCopied={editable ? () => set((s) => { s.drafts = recordCopy(s.drafts, prompt, asDraft); }) : undefined} />
       {editable && (
-        <PasteBack onUse={(text) => set((s, d) => {
+        <PasteBack expected={expectedReply(11, run)} onUse={(text) => set((s, d) => {
           s.drafts = recordPaste(s.drafts, prompt, text, asDraft);
           const dr = s.drafts[s.drafts.length - 1];
           dr.lint = lintFor(d, text).report;
