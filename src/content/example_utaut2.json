@@ -1,0 +1,771 @@
+{
+  "schema": "tte-run/1",
+  "templateVersion": "2.4",
+  "title": "UTAUT2: rhythm, micro scale (paper example)",
+  "readOnlyExample": true,
+  "createdAt": "2026-10-29T00:00:00Z",
+  "updatedAt": "2026-10-30T00:00:00Z",
+  "theory": {
+    "name": "UTAUT2",
+    "source": "Venkatesh, V., Thong, J. Y. L., & Xu, X. (2012). Consumer acceptance and use of information technology: Extending the unified theory of acceptance and use of technology. MIS Quarterly, 36(1), 157–178.",
+    "unit": "individual",
+    "unitNote": "individual level"
+  },
+  "audit": [
+    {
+      "relationship": "PE → BI",
+      "answers": {
+        "duration": {
+          "value": "no",
+          "note": ""
+        },
+        "sequence": {
+          "value": "no",
+          "note": ""
+        },
+        "rhythm": {
+          "value": "no",
+          "note": ""
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "no",
+          "note": ""
+        }
+      }
+    },
+    {
+      "relationship": "EE → BI",
+      "answers": {
+        "duration": {
+          "value": "yes",
+          "note": "experience"
+        },
+        "sequence": {
+          "value": "no",
+          "note": ""
+        },
+        "rhythm": {
+          "value": "no",
+          "note": ""
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "partly",
+          "note": "weaker"
+        }
+      }
+    },
+    {
+      "relationship": "SI → BI",
+      "answers": {
+        "duration": {
+          "value": "yes",
+          "note": "experience"
+        },
+        "sequence": {
+          "value": "no",
+          "note": ""
+        },
+        "rhythm": {
+          "value": "no",
+          "note": ""
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "partly",
+          "note": "weaker"
+        }
+      }
+    },
+    {
+      "relationship": "FC → BI",
+      "answers": {
+        "duration": {
+          "value": "yes",
+          "note": "experience"
+        },
+        "sequence": {
+          "value": "no",
+          "note": ""
+        },
+        "rhythm": {
+          "value": "no",
+          "note": ""
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "partly",
+          "note": "weaker"
+        }
+      }
+    },
+    {
+      "relationship": "FC → Use",
+      "answers": {
+        "duration": {
+          "value": "yes",
+          "note": "experience"
+        },
+        "sequence": {
+          "value": "no",
+          "note": "lag in design only"
+        },
+        "rhythm": {
+          "value": "no",
+          "note": ""
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "partly",
+          "note": "stronger"
+        }
+      }
+    },
+    {
+      "relationship": "HM → BI",
+      "answers": {
+        "duration": {
+          "value": "yes",
+          "note": "experience"
+        },
+        "sequence": {
+          "value": "no",
+          "note": ""
+        },
+        "rhythm": {
+          "value": "no",
+          "note": ""
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "partly",
+          "note": "weaker"
+        }
+      }
+    },
+    {
+      "relationship": "PV → BI",
+      "answers": {
+        "duration": {
+          "value": "no",
+          "note": ""
+        },
+        "sequence": {
+          "value": "no",
+          "note": ""
+        },
+        "rhythm": {
+          "value": "no",
+          "note": ""
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "no",
+          "note": ""
+        }
+      }
+    },
+    {
+      "relationship": "HT → BI",
+      "answers": {
+        "duration": {
+          "value": "yes",
+          "note": "experience"
+        },
+        "sequence": {
+          "value": "yes",
+          "note": "habit as prior behaviour"
+        },
+        "rhythm": {
+          "value": "no",
+          "note": "repetition named"
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "partly",
+          "note": "stronger"
+        }
+      }
+    },
+    {
+      "relationship": "HT → Use",
+      "answers": {
+        "duration": {
+          "value": "yes",
+          "note": "experience"
+        },
+        "sequence": {
+          "value": "yes",
+          "note": "habit as prior behaviour"
+        },
+        "rhythm": {
+          "value": "no",
+          "note": "repetition named"
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "partly",
+          "note": "stronger"
+        }
+      }
+    },
+    {
+      "relationship": "BI → Use",
+      "answers": {
+        "duration": {
+          "value": "yes",
+          "note": "experience"
+        },
+        "sequence": {
+          "value": "yes",
+          "note": "stored intention"
+        },
+        "rhythm": {
+          "value": "no",
+          "note": "repetition named"
+        },
+        "timing": {
+          "value": "no",
+          "note": ""
+        },
+        "speed": {
+          "value": "no",
+          "note": ""
+        },
+        "trajectory": {
+          "value": "partly",
+          "note": "weaker"
+        }
+      }
+    }
+  ],
+  "draw": {
+    "rule": "Restrict the draw to the scales of the theory’s unit of analysis (micro and meso: twelve cells of Table 1); draw one cell, one conception of time and one eligible relationship at random (numbered as in Table A4); record each draw with its date",
+    "scales": [
+      "micro",
+      "meso"
+    ],
+    "ruleFixedAt": "2026-10-29",
+    "picks": [
+      {
+        "kind": "cell",
+        "value": "Rhythm, cycle and entrainment; micro: “attention and interruption rhythms”",
+        "index": 7,
+        "of": 12,
+        "how": "random",
+        "at": "2026-10-29",
+        "reason": ""
+      },
+      {
+        "kind": "conception",
+        "value": "process time",
+        "index": 2,
+        "of": 10,
+        "how": "random",
+        "at": "2026-10-29",
+        "reason": ""
+      },
+      {
+        "kind": "relationship",
+        "value": "SI → BI",
+        "index": 3,
+        "of": 10,
+        "how": "random",
+        "at": "2026-10-29",
+        "reason": ""
+      }
+    ],
+    "cell": {
+      "dimension": "rhythm",
+      "scale": "micro",
+      "entry": "attention and interruption rhythms (Rennecker & Godwin, 2005; Addas & Pinsonneault, 2018)"
+    },
+    "conception": {
+      "n": 2,
+      "name": "Process time"
+    },
+    "relationship": "SI → BI",
+    "cText": "Use of the technology recurs in step, strongly or partially, with other users’ attention and interruption rhythms",
+    "relationshipTerms": [
+      "Interaction",
+      "Mediator",
+      "Moderator",
+      "Omitted variable",
+      "Threshold effect",
+      "Direct effect",
+      "Indirect effect"
+    ]
+  },
+  "representation": [
+    {
+      "construct": "Performance Expectancy (PE)",
+      "role": "Independent",
+      "relationships": "PE → BI (+)",
+      "moderators": "Age, Gender",
+      "scope": "Voluntary use, Consumer context",
+      "unstated": "All six"
+    },
+    {
+      "construct": "Effort Expectancy (EE)",
+      "role": "Independent",
+      "relationships": "EE → BI (+)",
+      "moderators": "Age, Gender, Experience",
+      "scope": "Voluntary use, Consumer context",
+      "unstated": "Sequence, rhythm, timing, speed"
+    },
+    {
+      "construct": "Social Influence (SI)",
+      "role": "Independent",
+      "relationships": "SI → BI (+)",
+      "moderators": "Age, Gender, Experience",
+      "scope": "Voluntary use, Consumer context",
+      "unstated": "Sequence, rhythm, timing, speed"
+    },
+    {
+      "construct": "Facilitating Conditions (FC)",
+      "role": "Independent",
+      "relationships": "FC → BI (+); FC → Use (+)",
+      "moderators": "Age, Gender, Experience (on FC → BI); Age, Experience (on FC → Use)",
+      "scope": "Voluntary use, Consumer context",
+      "unstated": "Sequence, rhythm, timing, speed"
+    },
+    {
+      "construct": "Hedonic Motivation (HM)",
+      "role": "Independent",
+      "relationships": "HM → BI (+)",
+      "moderators": "Age, Gender, Experience",
+      "scope": "Consumer context",
+      "unstated": "Sequence, rhythm, timing, speed"
+    },
+    {
+      "construct": "Price Value (PV)",
+      "role": "Independent",
+      "relationships": "PV → BI (+)",
+      "moderators": "Age, Gender",
+      "scope": "Consumer context",
+      "unstated": "All six"
+    },
+    {
+      "construct": "Habit (HT)",
+      "role": "Independent",
+      "relationships": "HT → BI (+); HT → Use (+)",
+      "moderators": "Age, Gender, Experience",
+      "scope": "Consumer context",
+      "unstated": "Rhythm, timing, speed"
+    },
+    {
+      "construct": "Behavioural Intention (BI)",
+      "role": "Mediator/Dependent",
+      "relationships": "BI → Use (+)",
+      "moderators": "Experience (on BI → Use)",
+      "scope": "None stated (implied: independent constructs; temporal stability)",
+      "unstated": "Rhythm, timing, speed"
+    }
+  ],
+  "instances": [
+    {
+      "id": "A",
+      "relationship": "SI → BI",
+      "changeType": "Introduction of mediation (new path SI → EE)",
+      "terms": [
+        "Mediator",
+        "Indirect effect"
+      ],
+      "description": "Guidance from others makes the technology seem manageable",
+      "screening": "survives",
+      "reason": ""
+    },
+    {
+      "id": "B",
+      "relationship": "SI → BI",
+      "changeType": "Diminished strength",
+      "terms": [
+        "Direct effect"
+      ],
+      "description": "Others’ expectations fade as use becomes routine",
+      "screening": "survives",
+      "reason": ""
+    },
+    {
+      "id": "C",
+      "relationship": "SI → BI",
+      "changeType": "Removal of moderation by experience",
+      "terms": [
+        "Moderator"
+      ],
+      "description": "The rhythm of others’ activity sets familiarity",
+      "screening": "survives",
+      "reason": ""
+    },
+    {
+      "id": "D",
+      "relationship": "SI → BI",
+      "changeType": "Introduction of a moderator",
+      "terms": [
+        "Moderator"
+      ],
+      "description": "Moderation of the direct effect by the frequency of interruption",
+      "screening": "set aside",
+      "reason": "Requires a construct outside UTAUT2 (frequency of interruption)"
+    },
+    {
+      "id": "E",
+      "relationship": "SI → BI",
+      "changeType": "Introduction of a mediator",
+      "terms": [
+        "Mediator"
+      ],
+      "description": "Mediation by trust in other users",
+      "screening": "set aside",
+      "reason": "Requires a construct outside UTAUT2 (trust in other users)"
+    },
+    {
+      "id": "F",
+      "relationship": "SI → BI",
+      "changeType": "Introduction of a mediator",
+      "terms": [
+        "Mediator"
+      ],
+      "description": "Mediation by perceived interdependence among users",
+      "screening": "set aside",
+      "reason": "Requires a construct outside UTAUT2 (perceived interdependence)"
+    },
+    {
+      "id": "G",
+      "relationship": "SI → BI",
+      "changeType": "Change of sign",
+      "terms": [
+        "Direct effect"
+      ],
+      "description": "Change of sign",
+      "screening": "set aside",
+      "reason": "Would need users to resist the others whose activity paces their use, which C does not state"
+    },
+    {
+      "id": "H",
+      "relationship": "SI → BI",
+      "changeType": "Disappearance",
+      "terms": [
+        "Direct effect"
+      ],
+      "description": "Disappearance of the relationship",
+      "screening": "set aside",
+      "reason": "Conflicts with C, under which the same others are present at each recurrence"
+    },
+    {
+      "id": "I",
+      "relationship": "SI → BI",
+      "changeType": "Removal of a moderator",
+      "terms": [
+        "Moderator"
+      ],
+      "description": "Removal of moderation by age",
+      "screening": "set aside",
+      "reason": "Would need the rhythm of others’ activity to act on differences it has no bearing on"
+    },
+    {
+      "id": "J",
+      "relationship": "SI → BI",
+      "changeType": "Removal of a moderator",
+      "terms": [
+        "Moderator"
+      ],
+      "description": "Removal of moderation by gender",
+      "screening": "set aside",
+      "reason": "Would need the rhythm of others’ activity to act on differences it has no bearing on"
+    }
+  ],
+  "transform": [
+    {
+      "instanceId": "A",
+      "cWords": "Rhythm, cycle and entrainment; micro: “attention and interruption rhythms”",
+      "candidateM": "Pacing by other users: procedural guidance arrives within the episodes that other users’ interruptions start",
+      "criteria": [
+        {
+          "value": "yes",
+          "note": ""
+        },
+        {
+          "value": "yes",
+          "note": "SI and EE correlation; SI → EE path"
+        },
+        {
+          "value": "yes",
+          "note": ""
+        },
+        {
+          "value": "yes",
+          "note": ""
+        }
+      ],
+      "selected": true
+    },
+    {
+      "instanceId": "B",
+      "cWords": "Rhythm, cycle and entrainment; micro: “attention and interruption rhythms”",
+      "candidateM": "Repetition at others’ pace makes use automatic",
+      "criteria": [
+        {
+          "value": "yes",
+          "note": ""
+        },
+        {
+          "value": "yes",
+          "note": "SI → BI path"
+        },
+        {
+          "value": "no",
+          "note": "repetition, which habit represents, would produce the change without C"
+        },
+        {
+          "value": "yes",
+          "note": ""
+        }
+      ],
+      "selected": false
+    },
+    {
+      "instanceId": "C",
+      "cWords": "Rhythm, cycle and entrainment; micro: “attention and interruption rhythms”",
+      "candidateM": "The rhythm of others’ activity sets familiarity with the technology",
+      "criteria": [
+        {
+          "value": "yes",
+          "note": ""
+        },
+        {
+          "value": "no",
+          "note": "no established measure separates rhythm from elapsed time"
+        },
+        {
+          "value": "yes",
+          "note": ""
+        },
+        {
+          "value": "yes",
+          "note": ""
+        }
+      ],
+      "selected": false
+    }
+  ],
+  "setup": {
+    "a": "Performance Expectancy (PE): the degree to which using a technology will provide benefits to consumers in performing certain activities.\nEffort Expectancy (EE): the degree of ease associated with consumers' use of technology.\nSocial Influence (SI): the extent to which consumers perceive that important others (e.g., family and friends) believe they should use a particular technology.\nFacilitating Conditions (FC): consumers' perceptions of the resources and support available to perform a behaviour.\nHedonic Motivation (HM): the fun or pleasure derived from using a technology.\nPrice Value (PV): consumers' cognitive trade-off between the perceived benefits of the application and the monetary cost of using it.\nHabit (HT): the extent to which people tend to perform behaviours automatically because of learning.\nBehavioural Intention (BI): the degree to which a person has formulated conscious plans to use the technology.\nUse: frequency and variety of use of the technology.\nSource: Venkatesh, Thong and Xu (2012) [add pages]",
+    "b": "the direct effect of Social Influence on Behavioural Intention.",
+    "c": "under C, the effect of Social Influence on Behavioural Intention becomes partially mediated by Effort Expectancy. A new positive path from SI to EE appears, and the direct path from SI to BI becomes weaker but stays positive.",
+    "d": "pacing by other users. When the attention and interruption of another user start an episode of use, guidance from experienced users arrives within that episode. The social signal then contains help in using the technology as well as the expectation that one should use it, and that help changes how easy the technology seems. The more closely a user's use keeps step with other users' rhythms, the larger the share of episodes that hold such guidance.",
+    "e": "2027: the first months after the people in it begin to use the technology.",
+    "f": "2046: when the pattern has settled.",
+    "g": "trust in other users; users depending on one another for the system to work; a crisis, disaster, outage or other shock; an employer, contract or other obligation; a calendar schedule, booked session, fixed cycle or deadline (a season or another rhythm that people do not set may pace other users' activity under rule 5, but may not itself start the focal person's episodes)",
+    "h": "a personal app on which a friend's logged activity sends the person a push notification, as in apps for fitness tracking, casual word and puzzle games, language learning, amateur music making and plant care; and email or instant messaging at work, the settings of the studies cited in C",
+    "i": "members of a comparable society who began to use the same technology in a single decision and whose use other users do not pace, measured in 2027.",
+    "j": "All constructs are measured on seven-point scales with the theory's items; Use is reported frequency of use on a seven-point scale.",
+    "k": "Rows: PE, EE, SI, FC, HM, PV, HT, BI, Use.\nSpecification: standard deviations between 0.9 and 1.5. EE rises from baseline to 2027 and again to 2046, by about 0.5 points each step. SI rises by about 1.0 point from baseline to 2027 and little after. HT and Use rise across the three groups. FC stays within 0.3 points of baseline. PE, HM and PV stay within 0.4 points of baseline. BI rises by no more than 0.6 points in all.",
+    "l": "Rows, in this order: SI and EE; SI and BI; EE and BI; PE and BI; FC and Use; HT and Use; SI and FC.\nSpecification: SI and EE shows the largest change, from about .10 to .20 at baseline, to about .40 to .50 in 2027, and to about .50 to .60 in 2046. SI and BI stays near .40 in all three groups (within .05). EE and BI rises modestly, from about .35 to about .45. PE and BI stays near .50. FC and Use stays near .35. HT and Use rises from about .30 to about .50. SI and FC stays low and stable, near .20. In every column, the SI and BI correlation must be larger than the product of the SI and EE correlation and the EE and BI correlation, so that the direct path from SI to BI stays positive.",
+    "m": "Columns: EE M (SD); SI and EE correlation\nRows: members whose episodes other users start often (n = 140); members whose episodes other users rarely start (n = 60).\nSpecification: the second subgroup has an EE mean within 0.3 points of the baseline group and an SI and EE correlation below .25.",
+    "n": "Ursula K. Le Guin, Always Coming Home (1985), in its ethnographic register"
+  },
+  "provoke": {
+    "settings": {
+      "app": "Claude application for Mac",
+      "model": "Claude Opus 4.6",
+      "modelId": "claude-opus-4-6",
+      "knowledgeCutoff": "May 2025",
+      "trainingDataTo": "August 2025",
+      "extendedThinking": true,
+      "memory": false,
+      "tools": false
+    },
+    "slot": {
+      "attempts": [
+        {
+          "promptText": "",
+          "source": "Appendix A.1 of the paper (prompts v2.4, as sent on 29 October 2026)",
+          "replyText": "All six tables are present, every required row and column is filled, and the consistency checks pass. The cell drawn (Rhythm, cycle and entrainment at micro scale, \"attention and interruption rhythms\") is a cell of Table S1 in its words. The conception drawn (process time) is conception 2 of Table S2. C as written uses the drawn cell's words. SI → BI is a relationship of Table 3 whose audit answer on Rhythm in Table 1 is \"no,\" and it is the relationship varied in Tables 4 and 5 and R in Table 6. The change types in Table 4 (introduction of mediation, diminished strength, removal of moderation) are admissible changes of Table S4. Instance A, the selected instance in Table 5, passes all four criteria of Table S5, and its change type (introduction of mediation, new path SI → EE) is the one R′ in Table 6 describes. M in Table 6 states Instance A's candidate mechanism in full.\n\nSLOT VALUES\nT_NAME: UTAUT2 (Venkatesh et al., 2012)\nT_UNIT: individual\nT_CONSTRUCTS:\nPerformance Expectancy (PE): the degree to which using a technology will provide benefits to consumers in performing certain activities.\nEffort Expectancy (EE): the degree of ease associated with consumers' use of technology.\nSocial Influence (SI): the extent to which consumers perceive that important others (e.g., family and friends) believe they should use a particular technology.\nFacilitating Conditions (FC): consumers' perceptions of the resources and support available to perform a behaviour.\nHedonic Motivation (HM): the fun or pleasure derived from using a technology.\nPrice Value (PV): consumers' cognitive trade-off between the perceived benefits of the application and the monetary cost of using it.\nHabit (HT): the extent to which people tend to perform behaviours automatically because of learning.\nBehavioural Intention (BI): the degree to which a person has formulated conscious plans to use the technology.\nUse: frequency and variety of use of the technology.\nT_RELATIONSHIPS: PE → BI (+); EE → BI (+); SI → BI (+); FC → BI (+); FC → Use (+); HM → BI (+); PV → BI (+); HT → BI (+); HT → Use (+); BI → Use (+). The theory posits no other paths among its constructs.\nT_MODERATORS: Age moderates PE → BI, EE → BI, SI → BI, FC → BI, FC → Use, HM → BI, PV → BI, HT → BI, HT → Use. Gender moderates PE → BI, EE → BI, SI → BI, FC → BI, HM → BI, PV → BI, HT → BI, HT → Use. Experience moderates EE → BI, SI → BI, FC → BI, FC → Use, HM → BI, HT → BI, HT → Use, BI → Use.\nT_SCOPE: voluntary use in a consumer context\nT_TERMS_TO_EXCLUDE: Performance Expectancy, Effort Expectancy, Social Influence, Facilitating Conditions, Hedonic Motivation, Price Value, Habit, Behavioural Intention, Use, UTAUT2\nR: the direct effect of Social Influence on Behavioural Intention.\nC_DIMENSION: Rhythm, cycle and entrainment\nC_SCALE: micro\nC_CONCEPTION: process time\nC_CONCEPTION_DEFINITION: time counted by events and activities, such as episodes of use, and not by the clock.\nC_TEXT: Use of the technology recurs in step, strongly or partially, with other users' attention and interruption rhythms (Rennecker & Godwin, 2005; Addas & Pinsonneault, 2018)\nR_PRIME: under C, the effect of Social Influence on Behavioural Intention becomes partially mediated by Effort Expectancy. A new positive path from SI to EE appears, and the direct path from SI to BI becomes weaker but stays positive.\nM: pacing by other users. When the attention and interruption of another user start an episode of use, guidance from experienced users arrives within that episode. The social signal then contains help in using the technology as well as the expectation that one should use it, and that help changes how easy the technology seems. The more closely a user's use keeps step with other users' rhythms, the larger the share of episodes that hold such guidance.\nDIMENSION_GUARD: A reader could most easily mistake the drawn dimension for speed and tempo or for timing. The change depends on recurrence of use at intervals that keep step with other users' rhythms, not on how fast use happens or on when a single episode takes place relative to the clock or calendar.\nEXCLUDED_CAUSES: trust in other users; users depending on one another for the system to work; a crisis, disaster, outage or other shock; an employer, contract or other obligation; a calendar schedule, booked session, fixed cycle or deadline (a season or another rhythm that people do not set may pace other users' activity under rule 5, but may not itself start the focal person's episodes)\nOBVIOUS_SETTINGS: a personal app on which a friend's logged activity sends the person a push notification, as in apps for fitness tracking, casual word and puzzle games, language learning, amateur music making and plant care; and email or instant messaging at work, the settings of the studies cited in C\nC_SCENE_REQUIREMENT: the focal person's episode of use begins because another user's activity starts it, and such starts recur at the rhythm of other users' attention and interruptions\nDISTINCTION_TO_KEEP: The accounts must keep apart the social expectation that one should use the technology and the procedural guidance that arrives within the same episode.\nWHAT_OF_R_REMAINS: The accounts must still show Social Influence affecting Behavioural Intention directly, though the effect is weaker because part of its force now passes through Effort Expectancy.\nH1: 2027\nH1_DESCRIPTION: the first months after the people in it begin to use the technology.\nH2: 2046\nH2_DESCRIPTION: when the pattern has settled.\nBASELINE_GROUP: members of a comparable society who began to use the same technology in a single decision and whose use other users do not pace, measured in 2027.\nMEASUREMENT: All constructs are measured on seven-point scales with the theory's items; Use is reported frequency of use on a seven-point scale.\nTABLE_A_SPEC: Rows: PE, EE, SI, FC, HM, PV, HT, BI, Use.\nSpecification: standard deviations between 0.9 and 1.5. EE rises from baseline to 2027 and again to 2046, by about 0.5 points each step. SI rises by about 1.0 point from baseline to 2027 and little after. HT and Use rise across the three groups. FC stays within 0.3 points of baseline. PE, HM and PV stay within 0.4 points of baseline. BI rises by no more than 0.6 points in all.\nTABLE_B_SPEC: Rows, in this order: SI and EE; SI and BI; EE and BI; PE and BI; FC and Use; HT and Use; SI and FC.\nSpecification: SI and EE shows the largest change, from about .10 to .20 at baseline, to about .40 to .50 in 2027, and to about .50 to .60 in 2046. SI and BI stays near .40 in all three groups (within .05). EE and BI rises modestly, from about .35 to about .45. PE and BI stays near .50. FC and Use stays near .35. HT and Use rises from about .30 to about .50. SI and FC stays low and stable, near .20. In every column, the SI and BI correlation must be larger than the product of the SI and EE correlation and the EE and BI correlation, so that the direct path from SI to BI stays positive.\nTABLE_C_COLUMNS: EE M (SD); SI and EE correlation\nTABLE_C_SPEC: members whose episodes other users start often (n = 140); members whose episodes other users rarely start (n = 60). Specification: the second subgroup has an EE mean within 0.3 points of the baseline group and an SI and EE correlation below .25.\nPRIOR_EVIDENCE: findings that social influence affects effort expectancy or that effort expectancy mediates the relationship between social influence and behavioural intention\nTEMPORAL_FEATURE: the rhythm of use and whether participants' episodes were entrained to other users' activity\nPROPOSAL: that when use of the technology recurs in step with other users' attention and interruption rhythms, the direct effect of Social Influence on Behavioural Intention becomes partially mediated by Effort Expectancy\nEND SLOT VALUES\n\nSOURCES\nT_NAME: copied from Table 2, row \"Theory and source\"\nT_UNIT: copied from Table 2, row \"Drawing rule\" (unit of analysis stated inside the rule as \"individual\")\nT_CONSTRUCTS: copied from Table 6, row a (definitions only, source line omitted)\nT_RELATIONSHIPS: copied from Table 3, column \"Hypothesised Relationship,\" all rows; no unlisted paths found\nT_MODERATORS: copied from Table 3, column \"Moderators,\" reorganised by moderator with the relationships each moderates\nT_SCOPE: copied from Table 3, column \"Stated scope conditions,\" combined into one phrase\nT_TERMS_TO_EXCLUDE: derived from Table 3 and Table 2: full names of every construct in Table 3 plus Use from Table 6 row a, and the theory name without its source\nR: copied from Table 6, row b\nC_DIMENSION: copied from Table 2, row \"Cell drawn\" (dimension component)\nC_SCALE: copied from Table 2, row \"Cell drawn\" (scale component)\nC_CONCEPTION: copied from Table 2, row \"Conception of time drawn\"\nC_CONCEPTION_DEFINITION: copied from Table S2, conception 2\nC_TEXT: copied from Table 2, row \"C as written\"\nR_PRIME: copied from Table 6, row c\nM: copied from Table 6, row d\nDIMENSION_GUARD: derived from Table S1 and C: named the dimensions whose definitions overlap most with the drawn dimension and stated what the change depends on instead\nEXCLUDED_CAUSES: copied from Table 6, row g\nOBVIOUS_SETTINGS: copied from Table 6, row h\nC_SCENE_REQUIREMENT: derived from C: restated what an episode must show for entrainment to other users' rhythms to be visible\nDISTINCTION_TO_KEEP: derived from M: the social expectation (SI proper) versus the procedural guidance that changes perceived ease (the new SI → EE path)\nWHAT_OF_R_REMAINS: derived from R′: the direct SI → BI path stays positive though weaker\nH1: copied from Table 6, row e (year)\nH1_DESCRIPTION: copied from Table 6, row e (what the account shows)\nH2: copied from Table 6, row f (year)\nH2_DESCRIPTION: copied from Table 6, row f (what the account shows)\nBASELINE_GROUP: copied from Table 6, row i\nMEASUREMENT: copied from Table 6, row j\nTABLE_A_SPEC: copied from Table 6, row k\nTABLE_B_SPEC: copied from Table 6, row l\nTABLE_C_COLUMNS: copied from Table 6, row m (columns)\nTABLE_C_SPEC: copied from Table 6, row m (subgroups, sizes, and what each must show)\nPRIOR_EVIDENCE: derived from R′: the kind of published finding that would show R′ or part of it, as one noun phrase\nTEMPORAL_FEATURE: derived from the dimension: the temporal feature of a study's setting to report, as one noun phrase\nPROPOSAL: derived from C, R and R′: the conditional proposal stated as one clause without asserting a result\nEND SOURCES\n```",
+          "pastedAt": "2026-10-29"
+        }
+      ],
+      "status": "confirmed",
+      "parsed": {},
+      "sources": {},
+      "edits": [],
+      "confirmedBlock": "SLOT VALUES\nT_NAME: UTAUT2 (Venkatesh et al., 2012)\nT_UNIT: individual\nT_CONSTRUCTS:\nPerformance Expectancy (PE): the degree to which using a technology will provide benefits to consumers in performing certain activities.\nEffort Expectancy (EE): the degree of ease associated with consumers' use of technology.\nSocial Influence (SI): the extent to which consumers perceive that important others (e.g., family and friends) believe they should use a particular technology.\nFacilitating Conditions (FC): consumers' perceptions of the resources and support available to perform a behaviour.\nHedonic Motivation (HM): the fun or pleasure derived from using a technology.\nPrice Value (PV): consumers' cognitive trade-off between the perceived benefits of the application and the monetary cost of using it.\nHabit (HT): the extent to which people tend to perform behaviours automatically because of learning.\nBehavioural Intention (BI): the degree to which a person has formulated conscious plans to use the technology.\nUse: frequency and variety of use of the technology.\nT_RELATIONSHIPS: PE → BI (+); EE → BI (+); SI → BI (+); FC → BI (+); FC → Use (+); HM → BI (+); PV → BI (+); HT → BI (+); HT → Use (+); BI → Use (+). The theory posits no other paths among its constructs.\nT_MODERATORS: Age moderates PE → BI, EE → BI, SI → BI, FC → BI, FC → Use, HM → BI, PV → BI, HT → BI, HT → Use. Gender moderates PE → BI, EE → BI, SI → BI, FC → BI, HM → BI, PV → BI, HT → BI, HT → Use. Experience moderates EE → BI, SI → BI, FC → BI, FC → Use, HM → BI, HT → BI, HT → Use, BI → Use.\nT_SCOPE: voluntary use in a consumer context\nT_TERMS_TO_EXCLUDE: Performance Expectancy, Effort Expectancy, Social Influence, Facilitating Conditions, Hedonic Motivation, Price Value, Habit, Behavioural Intention, Use, UTAUT2\nR: the direct effect of Social Influence on Behavioural Intention.\nC_DIMENSION: Rhythm, cycle and entrainment\nC_SCALE: micro\nC_CONCEPTION: process time\nC_CONCEPTION_DEFINITION: time counted by events and activities, such as episodes of use, and not by the clock.\nC_TEXT: Use of the technology recurs in step, strongly or partially, with other users' attention and interruption rhythms (Rennecker & Godwin, 2005; Addas & Pinsonneault, 2018)\nR_PRIME: under C, the effect of Social Influence on Behavioural Intention becomes partially mediated by Effort Expectancy. A new positive path from SI to EE appears, and the direct path from SI to BI becomes weaker but stays positive.\nM: pacing by other users. When the attention and interruption of another user start an episode of use, guidance from experienced users arrives within that episode. The social signal then contains help in using the technology as well as the expectation that one should use it, and that help changes how easy the technology seems. The more closely a user's use keeps step with other users' rhythms, the larger the share of episodes that hold such guidance.\nDIMENSION_GUARD: A reader could most easily mistake the drawn dimension for speed and tempo or for timing. The change depends on recurrence of use at intervals that keep step with other users' rhythms, not on how fast use happens or on when a single episode takes place relative to the clock or calendar.\nEXCLUDED_CAUSES: trust in other users; users depending on one another for the system to work; a crisis, disaster, outage or other shock; an employer, contract or other obligation; a calendar schedule, booked session, fixed cycle or deadline (a season or another rhythm that people do not set may pace other users' activity under rule 5, but may not itself start the focal person's episodes)\nOBVIOUS_SETTINGS: a personal app on which a friend's logged activity sends the person a push notification, as in apps for fitness tracking, casual word and puzzle games, language learning, amateur music making and plant care; and email or instant messaging at work, the settings of the studies cited in C\nC_SCENE_REQUIREMENT: the focal person's episode of use begins because another user's activity starts it, and such starts recur at the rhythm of other users' attention and interruptions\nDISTINCTION_TO_KEEP: The accounts must keep apart the social expectation that one should use the technology and the procedural guidance that arrives within the same episode.\nWHAT_OF_R_REMAINS: The accounts must still show Social Influence affecting Behavioural Intention directly, though the effect is weaker because part of its force now passes through Effort Expectancy.\nH1: 2027\nH1_DESCRIPTION: the first months after the people in it begin to use the technology.\nH2: 2046\nH2_DESCRIPTION: when the pattern has settled.\nBASELINE_GROUP: members of a comparable society who began to use the same technology in a single decision and whose use other users do not pace, measured in 2027.\nMEASUREMENT: All constructs are measured on seven-point scales with the theory's items; Use is reported frequency of use on a seven-point scale.\nTABLE_A_SPEC: Rows: PE, EE, SI, FC, HM, PV, HT, BI, Use.\nSpecification: standard deviations between 0.9 and 1.5. EE rises from baseline to 2027 and again to 2046, by about 0.5 points each step. SI rises by about 1.0 point from baseline to 2027 and little after. HT and Use rise across the three groups. FC stays within 0.3 points of baseline. PE, HM and PV stay within 0.4 points of baseline. BI rises by no more than 0.6 points in all.\nTABLE_B_SPEC: Rows, in this order: SI and EE; SI and BI; EE and BI; PE and BI; FC and Use; HT and Use; SI and FC.\nSpecification: SI and EE shows the largest change, from about .10 to .20 at baseline, to about .40 to .50 in 2027, and to about .50 to .60 in 2046. SI and BI stays near .40 in all three groups (within .05). EE and BI rises modestly, from about .35 to about .45. PE and BI stays near .50. FC and Use stays near .35. HT and Use rises from about .30 to about .50. SI and FC stays low and stable, near .20. In every column, the SI and BI correlation must be larger than the product of the SI and EE correlation and the EE and BI correlation, so that the direct path from SI to BI stays positive.\nTABLE_C_COLUMNS: EE M (SD); SI and EE correlation\nTABLE_C_SPEC: members whose episodes other users start often (n = 140); members whose episodes other users rarely start (n = 60). Specification: the second subgroup has an EE mean within 0.3 points of the baseline group and an SI and EE correlation below .25.\nPRIOR_EVIDENCE: findings that social influence affects effort expectancy or that effort expectancy mediates the relationship between social influence and behavioural intention\nTEMPORAL_FEATURE: the rhythm of use and whether participants' episodes were entrained to other users' activity\nPROPOSAL: that when use of the technology recurs in step with other users' attention and interruption rhythms, the direct effect of Social Influence on Behavioural Intention becomes partially mediated by Effort Expectancy\nEND SLOT VALUES",
+      "confirmedAt": "2026-10-29"
+    },
+    "stage1": {
+      "exchange": {
+        "promptText": "",
+        "source": "Appendix A.1 of the paper (prompts v2.4, as sent on 29 October 2026)",
+        "replyText": "SETTINGS\n\n1. Members of a shellfish-gathering cooperative on a tidal estuary use a species-identification and harvest-logging app to record what they collect when low tides expose the beds.\n\nPrinciples: Primary: 29 (Pneumatics and hydraulics), the tidal flow determines when gathering beds are accessible, structuring the entire temporal pattern of harvesting activity. Secondary: 4 (Asymmetry), experienced gatherers reach exposed beds earlier and log first, so information flows in one direction through the society before reversing on the next tidal window.\n\nSociety: About 120 holders of gathering permits in a coastal village cooperative. They share the tidal flats, a landing point and a monthly cooperative meeting. The people a UTAUT2 survey would measure are individual permit-holding members who use the app of their own choice.\n\nScope: The app is a consumer identification and logging tool. No employer or contract requires it. Members choose whether and how often to use it. Use is voluntary and tied to a leisure or small-income activity.\n\nCondition: Tidal cycles (a rhythm people do not set) determine when the beds are exposed. Experienced gatherers, attuned to tidal windows, reach the flats as the water drops and log their finds using the app's photographic species key, bed-mapping overlay and quantity-estimation tool. Those logs appear to other members and start their episodes of use. The recurrence keeps step with the experienced gatherers' attention as shaped by the tidal rhythm. Concrete episode: a spring tide exposes a rarely accessible oyster bed at 6:20 AM; an experienced gatherer photographs specimens and runs them through the species key, pins the bed on the map overlay, and estimates quantity with the counting tool; forty minutes later a less experienced member sees the log and opens the app. The pace is set by the interaction of tidal exposure and experienced gatherers' attentiveness to it.\n\nMechanism: Within the episode that the less experienced member's attention was drawn to, the experienced gatherer's log reveals which features of the species key, the bed-mapping overlay and the counting tool were used, and in what sequence. The social signal says two things: that one should be out gathering and logging (the social expectation, SI proper, feeding SI → BI), and that these particular features make the app useful for identifying and mapping what the beds hold (procedural guidance, the new SI → EE path). The guidance changes how easy the app seems.\n\nMeasurement: A survey of cooperative members using UTAUT2's seven-point scales, with item stems reworded for the harvest-logging app. Use is reported frequency of use on a seven-point scale. Data collection would occur at the landing point or by post.\n\nNearest excluded cause: \"users depending on one another for the system to work.\" Cooperative members share the resource and coordinate some management decisions, so a form of interdependence exists in the background. The change does not rest on that interdependence. It rests on the experienced gatherer's logged use of app features starting the focal member's episode and supplying procedural guidance within it. A member who gathered on a separate bed, with no coordination, would still receive the log and the guidance it contains.\n\nCounter-example point: This setting shows that the partial mediation of Social Influence through Effort Expectancy can arise even when the technology has no communication or messaging feature, because the social pacing enters through logged traces of tool use anchored to a shared natural environment.\n\nTension: The same episodes that make the app easier to learn also erode members' freedom to choose when and where to gather, because their activity becomes entrained to the pace and site choices of the most experienced gatherers.\n\n2. Members of an astronomical society in a rural dark-sky village use an observation-logging and sky-charting app to record celestial objects on clear nights.\n\nPrinciples: Primary: 39 (Inert atmosphere), the dark-sky site provides a neutral background against which each logged observation stands out as a distinct signal, so members notice and respond to individual logs rather than a stream of mixed activity. Secondary: 36 (Phase transitions), the moment a sky clears after prolonged cloud cover triggers a burst of logging by experienced observers, creating a concentrated pulse of episodes.\n\nSociety: About 90 amateur astronomers who belong to a dark-sky preservation society in a rural village. They share a ridge with observation points, a warming hut and a quarterly meeting. UTAUT2 would survey individual members who use the app of their own choice.\n\nScope: The app is a consumer sky-charting and logging tool used for a leisure pursuit. No one is paid or required to use it.\n\nCondition: Celestial visibility follows atmospheric and astronomical rhythms people do not set: cloud clearance, planetary opposition, meteor-shower activity, the passage of comets. When the sky clears after a cloudy spell, experienced observers set up equipment and log detailed observations using the app's star-chart overlay, telescope-alignment wizard, eyepiece-simulation calculator and photo-stacking tool. Those logs, with timestamps, equipment parameters and feature screenshots, appear to other members and start their episodes. The recurrence keeps step with the experienced observers' attention to celestial and atmospheric rhythms. Concrete episode: a week of overcast sky breaks at 9:35 PM on the night Jupiter is near opposition; an experienced observer logs a planetary observation using the app's tracking-mount calibrator, the eyepiece-simulation tool and the detail-overlay filter; fifty minutes later a newer member sees the log and opens the same features to attempt the observation from a different spot on the ridge.\n\nMechanism: Within the newer member's episode, the experienced observer's log shows which app features were used and in what order: the planet-finder overlay, the eyepiece calculator with a particular focal-length setting, the tracking calibrator's drift-alignment mode. The social signal says \"this is worth observing tonight\" (SI proper, feeding SI → BI) and \"here is how to set up the app's alignment and simulation features to see it\" (procedural guidance, the new SI → EE path). The guidance changes how easy the app seems.\n\nMeasurement: A survey of society members on UTAUT2's seven-point scales, item stems reworded for the sky-charting app. Use is reported frequency of use on a seven-point scale. The survey could be administered at the warming hut or online.\n\nNearest excluded cause: \"a calendar schedule, booked session, fixed cycle or deadline.\" Planetary oppositions and meteor-shower peaks have predictable calendar dates that members could mark in advance. The condition does not depend on the calendar date. It depends on the experienced observer actually going out when the sky is clear, using the app's features, and logging. A predicted shower on a cloudy night produces no logs and no episodes. The rhythm is atmospheric clarity filtered through the experienced observer's attention, not a date on a calendar.\n\nCounter-example point: This setting shows that the partial mediation can arise when each user is observing alone and in silence, because the social pacing operates through logged feature-use rather than through co-presence, conversation or shared screen time.\n\nTension: The same episodes that teach newer members how to use the app's alignment and simulation features also collapse the patient, self-directed discovery that drew many members to amateur astronomy, because their observation rhythm now tracks the logging pace of experienced observers rather than their own curiosity about the sky.\n\n3. Members of a ceramics cooperative in a village share two communal kilns and use a glaze-recipe and firing-log app to record their firings, glaze formulations, pyrometric readings and results.\n\nPrinciples: Primary: 17 (Another dimension), use of the app moves off the personal screen to a shared tablet mounted on the wall of the kiln house, so that episodes of use coincide with physical visits to the kiln rather than with personal notifications on a pocket device. Secondary: 5 (Merging), the routine kiln check and the app episode are joined into a single activity at the kiln-house wall.\n\nSociety: About 70 home-based potters in a village who hold membership in a ceramics cooperative. They share the two communal kilns, a workspace for glazing, and a retail stall at a weekly market. UTAUT2 would measure individual potters who use the app voluntarily.\n\nScope: The app is a consumer tool for hobbyist and small-production potters. No employer requires it. Members choose whether to log their firings and consult the glaze database.\n\nCondition: Each kiln firing is a multi-day process in which temperature rises, holds and then falls along a curve governed by the kiln's thermal mass and the fuel supply (a material process whose trajectory, once set in motion, people do not control moment to moment). Experienced potters visit the kiln during critical stages, read cones and colors, and log readings using the app's pyrometric-cone calculator, glaze-chemistry display and before-and-after photo overlay. Those logs remain on the shared tablet and start episodes for other potters who come to the kiln next. The recurrence follows the experienced potters' attention to the kiln's thermal stages: they check when the kiln demands it, at intervals set by the pace of heat-work accumulation. Concrete episode: during a reduction stoneware firing, an experienced potter checks the kiln as cone 9 begins to bend, logs the cone angle using the calculator, photographs the spy-hole view and annotates it with the glaze-chemistry overlay showing predicted melt behavior; three hours later another potter arrives for the next check, sees the log on the tablet, and opens the same features.\n\nMechanism: Within the second potter's episode, the first potter's log shows which features were used: the cone-calculator's angle-entry mode, the glaze-chemistry overlay's expansion coefficients, the photo tool's comparison slider. The social signal says \"the firing needs monitoring, you should check it\" (SI proper, feeding SI → BI) and \"here is how to use the measurement and chemistry features to read what the kiln is doing\" (procedural guidance, the new SI → EE path). The guidance changes how easy the app seems.\n\nMeasurement: A survey of cooperative members on UTAUT2's seven-point scales, item stems reworded for the firing-log app. Use is reported frequency of use on a seven-point scale. The survey could be administered at the kiln house or the market stall.\n\nNearest excluded cause: \"users depending on one another for the system to work.\" Cooperative members share the kiln, and one potter's firing decisions affect another's pieces in the same load. The change does not rest on this shared-load interdependence. It rests on the experienced potter's logged use of app features starting the next potter's episode and supplying procedural guidance within it. A potter who had no pieces in the current load would still encounter the log when visiting the kiln house and still receive the guidance.\n\nCounter-example point: This setting shows that the partial mediation can operate through a shared physical location and a wall-mounted device, without any digital notification reaching a personal screen, because the spatial arrangement forces episodes to coincide with traces of other users' feature-use.\n\nTension: The same episodes that teach potters how to use the app's pyrometric and glaze-chemistry features also compress each potter's individual sense of when a firing is right, because the logged reading from an experienced potter's episode becomes the benchmark the next potter measures against rather than developing a feel for the kiln.\n\n4. Members of a beekeeping association on an island use a hive-monitoring app that reads sensor data (temperature, weight, acoustic spectrum) from their hives and allows them to log observations and management decisions.\n\nPrinciples: Primary: 24 (Intermediary), the bees' foraging and brood rhythms act as an intermediary between the island's bloom patterns and the beekeeper's attention, so that the rhythm pacing episodes of app use passes through a living system that neither the keeper nor the island's ecology fully controls. Secondary: 3 (Local quality), each apiary's microclimate and colony genetics produce slightly different rhythmic signatures, so the practice varies from site to site within the same small island.\n\nSociety: About 80 amateur and small-scale beekeepers on an island who belong to a beekeeping association. They share forage zones, coordinate seasonal mite treatments, and meet at the association hall and at a honey market. UTAUT2 would measure individual beekeepers who use the app voluntarily.\n\nScope: The app is a consumer hive-monitoring tool. No employer or contract requires its use. Members keep bees as a hobby or modest sideline.\n\nCondition: Bee colonies follow foraging rhythms tied to bloom cycles and weather, rhythms people do not set. When nectar flow begins, hive weight rises and acoustic patterns shift. Experienced beekeepers notice these sensor changes and log detailed observations using the app's weight-trend graph, acoustic-analysis spectrogram, queen-status estimator and swarm-risk algorithm. Those logs start episodes for other beekeepers who receive them. The recurrence follows the bees' foraging rhythm as filtered through the experienced keepers' attention. Concrete episode: a spring bloom begins on the island's western cliffs and hive weight rises 1.4 kg in a morning; an experienced keeper opens the weight-trend graph, annotates the slope, runs the acoustic spectrogram to check for queen piping, queries the swarm-risk algorithm, and logs all of it with a photograph of the flight board; ninety minutes later a newer keeper on the eastern side of the island sees the log and opens the same features on her own hive's data.\n\nMechanism: Within the newer keeper's episode, the experienced keeper's log shows which features were used: the weight-trend annotation tool, the spectrogram's frequency-band filter, the swarm-risk algorithm's input screen. The social signal says \"your colonies may be responding to the same flow, check them\" (SI proper, feeding SI → BI) and \"here is how to read weight slopes, filter acoustic data and query the swarm-risk model in the app\" (procedural guidance, the new SI → EE path). The guidance changes how easy the app seems.\n\nMeasurement: A survey of association members on UTAUT2's seven-point scales, item stems reworded for the hive-monitoring app. Use is reported frequency of use on a seven-point scale. The survey could be administered at the association hall or the honey market.\n\nNearest excluded cause: \"a season or another rhythm that people do not set may pace other users' activity under rule 5, but may not itself start the focal person's episodes.\" The spring bloom is seasonal, and one might argue that the bloom itself starts the focal person's episode. It does not. The bloom triggers the bees' foraging, which changes the sensor data, which prompts the experienced keeper to log, and the experienced keeper's log starts the focal person's episode. The bloom acts through the bees and through the experienced keeper's attention, not on the focal person directly.\n\nCounter-example point: This setting shows that the partial mediation can arise when the technology monitors a non-human biological system rather than human activity, because the rhythm that paces social influence passes through an organism whose behavior neither user controls.\n\nTension: The same episodes that teach newer keepers how to use the app's diagnostic features also make their management decisions track the experienced keeper's interpretive frame rather than their own colony's particular signals, because the procedural guidance arrives before the newer keeper has formed an independent reading of the data.\n\n5. Members of a freshwater aquarist society in a town use a water-quality testing and tank-management app to log chemical parameters, dosing calculations, livestock observations and equipment maintenance for their home aquaria.\n\nPrinciples: Primary: 7 (Nested doll), an aquarium is a contained ecosystem nested within a household, nested within the society of keepers, and the monitoring practice propagates from the innermost biological rhythm outward through each enclosing layer, so that a bacterial event inside a glass box on one member's shelf eventually starts an episode on another member's phone across town. Secondary: 32 (Colour changes), visible shifts in the tank (algae tint, water cloudiness, shrimp coloration after a molt) act as biological signals that prompt the experienced keeper to test and log.\n\nSociety: About 110 hobbyist fishkeepers in a town who belong to an aquarist society. They share a bulk-supply order, a monthly swap meeting and an online group hosted on the society's own page. UTAUT2 would measure individual members who use the app voluntarily.\n\nScope: The app is a consumer tool for hobbyist fishkeeping. No one is paid or required to use it. Members keep aquaria for personal interest.\n\nCondition: Biological cycles in a planted freshwater aquarium (bacterial blooms in filter media, algae growth spurts triggered by nutrient imbalance, shrimp molting tied to water-change frequency, plant pearling after a large water change) follow rhythms set by the organisms and the tank's chemistry, not by the keeper. When a cycle event occurs, experienced keepers test water parameters and log the results using the app's parameter-entry screen, trend-comparison graph, dosing calculator and photo-journal. Those logs start episodes for other members. The recurrence follows the biological rhythms of each tank as filtered through the experienced keeper's attention. Concrete episode: a bacterial bloom clouds an experienced keeper's tank three days after a filter cleaning; the keeper measures ammonia, nitrite and nitrate with test kits and enters results on the app's parameter screen, compares the values to the preceding week on the trend graph, adjusts fertiliser dosing with the calculator's dilution formula, and logs a photo-journal entry showing the cloudiness; later that day, two other members see the log and open the same features to check their own tanks' readings.\n\nMechanism: Within the other members' episodes, the experienced keeper's log shows which features were used and how: the parameter-entry interface's dropdown for test-kit brand, the trend graph's week-over-week comparison mode, the dosing calculator's dilution formula with specific input fields. The social signal says \"your tank could face the same problem, check it\" (SI proper, feeding SI → BI) and \"here is how to enter test results, read the trend comparison and run the dosing formula in the app\" (procedural guidance, the new SI → EE path). The guidance changes how easy the app seems.\n\nMeasurement: A survey of society members on UTAUT2's seven-point scales, item stems reworded for the tank-management app. Use is reported frequency of use on a seven-point scale. The survey could be administered at the monthly swap or by post.\n\nNearest excluded cause: \"trust in other users.\" Hobbyist fishkeepers often defer to experienced members' water-chemistry knowledge, and trust in a veteran keeper's parameter readings could drive app adoption independently of C. The change does not rest on trust in the experienced keeper's interpretation of the readings. It rests on the procedural guidance embedded in the way the experienced keeper navigated the app's features within the logged episode. A member who disagreed with the experienced keeper's diagnosis would still gain guidance on how to use the parameter-entry screen, the trend graph's comparison mode and the dosing calculator.\n\nCounter-example point: This setting shows that the partial mediation arises even when each user's monitored system is physically sealed off from every other user's, because the social pacing operates entirely through logged episodes of feature-use rather than through any shared environment, co-located activity or mutual observation.\n\nTension: The same episodes that teach members how to use the app's testing and dosing features also flatten the individuality of each aquarium's ecology, because the procedural guidance arrives packaged with a particular diagnostic protocol that may not suit a tank with different livestock, plant load or source-water chemistry.",
+        "pastedAt": "2026-10-29"
+      },
+      "settings": [],
+      "chosen": 1,
+      "reason": "the tide is a rhythm that people do not set, and it paces the experienced gatherers, whose logs start the other members’ episodes; of the five settings, the coupling of the human rhythm to the ecological one was clearest here.",
+      "chosenAt": "2026-10-29"
+    },
+    "stage2": {
+      "drafts": [
+        {
+          "promptText": "",
+          "source": "Appendix A.1 of the paper (prompts v2.4, as sent on 29 October 2026)",
+          "replyText": "PART 1. ACCOUNTS\n\nAccount 1 (2027): Low Water, First Months\n\n[N1.1] The estuary at Foz da Várzea narrows between two sandstone bluffs and opens into a mile of tidal flats, the beds of cockles, razor clams, and oysters that the cooperative has harvested since the permits were first issued. At the landing point, a concrete ramp and a tin-roofed shed, someone has pinned a printed notice beside the tide table:\n\nSpecies-identification and harvest-logging app: all permit holders are asked to log each gathering session using the photograph tool, the bed-mapping overlay, and the quantity counter. Logs help the cooperative track bed health and report to the fisheries authority. Instructions and a help number are at the shed window.\n\nMost of the hundred and twenty permit holders downloaded the app in February. It is now April, and the spring tides of the equinox have drawn the water back further than at any point since the app was introduced.\n\n[N1.2] Marta Ferreira reaches the flats at twenty past six on a morning when the tide table shows a coefficient of 108. She has gathered on these beds for fourteen years and knows where the channels drain first. The water is still pulling back from the outer oyster beds when she crosses the sand with her boots and her rake, a cloth bag over one shoulder. She stops at the edge of the exposed rock, takes four photographs of the oyster clusters with the app's species key, and holds the phone close to the shells so the identification tool can compare the shape of the hinge. The app returns a confidence score for each specimen. She switches to the bed-mapping overlay, draws a boundary around the patch she can see, and pins it. Then she opens the quantity counter, sets the grid to two-metre squares, and taps a count into each square. The log, time-stamped 06:47, appears on the cooperative's shared feed.\n\n[N1.3] Celso Barbosa, who received his permit last autumn, is at his kitchen table forty minutes later when the notification reaches his phone. He opens the app. The log shows Marta's four photographs with the species-key results beside them, the mapped boundary of the bed with its pin, and the grid of counted squares. Celso has used the species key twice before, both times holding the phone too far from the shell and getting uncertain results. He sees that Marta took her photographs from about fifteen centimetres, close enough for the hinge to fill the frame. He did not know the grid in the quantity counter could be set to different sizes. The sequence in the log (photograph first, then map, then count) gives him something to follow. He puts on his boots and walks to the flats.\n\n[N1.4] By the time Celso reaches the bed Marta mapped, the tide has turned and the water is beginning to cover the outermost rock. He photographs five oyster clusters from the distance he saw in Marta's log. The species key returns higher confidence scores than he has seen before. He draws a boundary on the overlay, imitating the shape of Marta's pin, and counts into the grid squares. The features that seemed opaque to him two months ago now fall into a sequence he can repeat. When he finishes, he tells Dina Caldas, who is walking back from the clam beds with a half-full bag, that Marta's log \"showed me how to hold the phone for the species key. I would not have worked that out from the instructions.\"\n\n[N1.5] Two weeks later the tides have weakened. On a grey morning with a coefficient of 72, Beatriz Lopes, who gathers mussels on the east channel, logs a session from a bed that is accessible only on moderate tides when the wind holds the water back from the rocks. Beatriz's log uses the species key in a way Dina has not tried: she photographs a cluster of mussels and a cluster of goose barnacles side by side, and the species key distinguishes them in a single frame. Dina sees the log over lunch, opens the app, and finds that the species key accepts multi-specimen photographs. She had assumed each photograph could hold only one species. The feature is easier than she expected once she has Beatriz's example in front of her.\n\n[N1.6] Celso Barbosa, recorded at the landing point, April 2027:\n\n\"I look at the feed most mornings before I go out. If Marta or Beatriz has already logged, I know the beds are open and I know what they found. But I can also see which tools they used and how they used them. Last week Marta used the overlay to mark an area where the oysters were too small to take, and I did not know you could mark areas as closed. I learned that from her log, not from the help screen. The app makes more sense to me now than it did in February, and most of that is because I see what experienced gatherers do with it before I try it myself.\"\n\n[N1.7] On the next spring tide, the pattern is visible from the landing point. Marta reaches the outer beds before seven. Her log appears at quarter past. Beatriz logs from the east channel at half past. By eight, five or six less experienced gatherers have opened the app and are walking toward the beds that Marta and Beatriz mapped. Dina Caldas is among them. She goes to the mussel bed Beatriz logged. Another permit holder, Tomás Vieira, goes to Marta's oyster bed. No one walks to the cockle beds on the western side of the estuary, where no experienced gatherer has logged.\n\n[N1.8] Nuno Pires gathers on a different schedule. He prefers the neap tides, when the flats are quieter and the beds closest to shore hold enough razor clams for a morning's work. He opens the app infrequently, often finding logs from tides he was not present for. The species key and the counting tool remain unfamiliar to him. He photographs his clams at the end of a session rather than at the start, and the confidence scores are low because the shells are sandy and half-closed. He does not see other gatherers' logs in time to learn from them. The app's features seem, in his words, \"designed for someone who is already out there when the tide drops.\"\n\n[N1.9] At the cooperative meeting in May, Tomás raises a concern. The outer oyster bed that Marta mapped on the spring tide received more gatherers in April than in any previous month. Two beds to the west, which hold cockles and small clams, were visited on only three mornings. Tomás says the logs pull people toward wherever the experienced gatherers go first. Marta replies that she logs what she finds, not where others should gather. Beatriz is quiet. After the meeting, Dina says to Celso at the ramp that she has noticed the same thing: she goes where the logs point her, because the logs teach her the app, and the app is easier to use on a bed someone else has already mapped.\n\n[N1.10] The cooperative has no answer for this in May. The tides do not pause while the members consider it. On the first spring tide of June, Marta's log appears at twenty to seven, and by eight the same cluster of gatherers is crossing the sand toward the same beds. The western cockle flats are empty.\n\nAccount 2 (2046): The Beds They Know\n\n[N2.1] The estuary at Foz da Várzea has not changed its shape in nineteen years, though the sandbar at its mouth has shifted south and the mussel beds on the east channel have crept into deeper water. The landing point is the same concrete ramp and the same tin-roofed shed. The tide table is still posted on the wall. The notice about the harvest-logging app has been replaced by a laminated sheet, its corners curling, that lists the app's current features and a help number. About a hundred permit holders remain in the cooperative. The app is the way they log what they collect.\n\n[N2.2] On a spring tide in March, the water drops below the sandstone ledge before half past six. Three experienced gatherers log from three parts of the estuary within the first hour. Celso Barbosa, who has held his permit for twenty years and gathers cockles on the western flats, reaches his beds at quarter past six, photographs a sample with the species key, draws his boundary on the overlay, and runs the substrate tool that the app added four years ago. His log appears at 06:38. Inês Ferreira, Marta's daughter, who took over her mother's permit and learned the oyster beds by walking them since childhood, logs from the outer rock at 06:51. On the east channel, Graça Vieira photographs mussels and runs the quantity counter at 07:04.\n\n[N2.3] Rui Mendes, in his second year with a permit, sees the three logs on his phone while he is pulling on his boots at seven. He scrolls through them. Celso's log shows the substrate tool applied to a patch of coarse sand where the cockles cluster thickly: the tool's colour overlay marks the sediment grade, and the boundary is drawn to follow the edge of the grade rather than the edge of the water. Rui has not used the substrate tool. He sees that Celso selected the sand-analysis mode, not the mud-analysis mode, and that the grid for counting is set to half-metre squares on the cockle beds, smaller than the two-metre squares the app suggests by default. Rui walks to the western flats. By the time he reaches Celso's bed, the tide has turned. He opens the substrate tool, selects sand, and sets the grid to the size he saw in Celso's log. The tool, which had seemed to him a feature for specialists, now has a sequence he can follow.\n\n[N2.4] The same morning, Luísa Gomes, who received her permit last autumn, sees Inês Ferreira's log from the oyster beds. Inês photographed the oyster clusters with the updated species database, which since last spring can distinguish four local subspecies by the pattern of growth rings. Luísa has used the species key for mussels but not for oysters, and did not know the database could separate subspecies. Inês's log shows the phone held at the angle that catches the growth rings in the morning light. Luísa walks to the outer rock, photographs a cluster from the same angle, and the database returns a subspecies identification she has not seen before. She tells Rui later at the ramp that Inês's log \"gave me the angle and the setting. The oyster key felt impossible until I saw her do it.\"\n\n[N2.5] The arrangement did not come about by decision. In the years after 2027, when the cooperative's members were all following Marta Ferreira's and Beatriz Lopes's logs to the same two beds, some of the gatherers who had learned the app through those logs began to gather on beds that Marta and Beatriz did not visit. Celso, who had learned the species key and the overlay from Marta's logs, found he preferred cockles and walked to the western flats. As he logged from there, other gatherers who opened the app on spring-tide mornings saw logs from the west as well as from the oyster beds and the east channel. The pacing spread. By 2035 or so, a spring tide produced logs from several parts of the estuary within the first hour, and a less experienced member opening the app saw a choice of beds, each with its own log and its own example of how the tools had been used.\n\n[N2.6] Rui Mendes, recorded at the landing point, March 2046:\n\n\"I follow Celso's logs for the cockle beds. He logs early and his logs show me which tool to use and in what order. But I do not follow only Celso. If Inês has logged from the oyster beds and the tide is still low enough, I sometimes go there instead. The feed gives me two or three places to go and two or three ways of using the app. I am learning the cockle tools from Celso and the oyster tools from Inês, though not at the same pace. The app is easier now than it was in November. Most of that is from seeing what Celso does with it on the beds I am learning.\"\n\n[N2.7] When the app's species database was updated last spring to include the four local oyster subspecies, Inês was the first to log with it. Her log from the outer rock showed the new identification screen, the angle for the growth rings, and the way the results appeared. Within three tidal cycles, six members had used the new feature, each having seen it first in Inês's log or in a log by someone who had seen Inês's. The pattern by which a new feature enters the cooperative is the same pattern by which the app itself became usable: an experienced member, paced by the tides, logs with the feature, and the log starts another member's episode and shows them how to use it.\n\n[N2.8] Newcomers enter the same way. When Rui received his permit, he attended a morning at the landing point where Celso showed him the app's main screens. That introduction covered the basics but not the substrate tool, the grid settings, or the subspecies database. Those Rui learned in the weeks that followed, each time by opening the app after an experienced gatherer's log appeared on a falling tide. The cooperative posts no written guide to the app's advanced features. The guide is the feed.\n\n[N2.9] Ana Soares moved to the village five months ago and received her permit in January. She gathers when she can, often on weekday afternoons when the tide is moderate and the flats are quiet. She does not follow the spring-tide rhythm. When she opens the app, the feed shows logs from Celso, Inês, and Graça, each from a different bed, each using features she has not tried. She does not know which log to start with. The species key on cockles works differently from the species key on oysters, and the substrate tool appears in Celso's logs but not in Inês's. She has tried the species key once, on a mussel she found near the ramp, and the result was uncertain. She says the app is \"full of things other people use that I have never been shown.\" She gathers with a hand rake and a paper tally sheet, and logs her sessions in the app as a total count without photographs.\n\n[N2.10] At the cooperative meeting in April, Graça mentions that three new permit holders joined in the past year and that all three log less than half as often as members who have held permits for more than two years. Celso says he offered to walk the cockle beds with Rui when Rui started, and that Rui picked up the rest from the feed. Rui confirms this. Ana, who is present, says nothing. After the meeting, she tells Luísa at the ramp that the problem is not the walk or the introduction. The problem is that the feed holds years of accumulated technique from many experienced gatherers in many parts of the estuary, and she cannot tell which log to follow on any given morning. She does not know whose rhythm to fall in with.\n\n[N2.11] The cooperative solved the crowding of beds by distributing the pacing across the estuary, and the distribution holds. Rui goes to the cockle beds, Luísa goes to the oyster rock, others go to the east channel, each following the experienced gatherer whose rhythm they have learned. The app is easier for all of them than it was in their first months. But the distribution that gives experienced and mid-career members their freedom leaves Ana, and the two other new permit holders, without a clear path in. The feed is full of examples. None of them, on any given tide, is clearly the first one to follow.\n\nPART 2. SYNTHETIC SURVEY TABLES\n\nTable A. Construct distributions\n\n| Construct | Baseline M (SD) | 2027 M (SD) | 2046 M (SD) | Notes |\n|---|---|---|---|---|\n| PE | 4.50 (1.10) | 4.70 (1.10) | 4.80 (1.05) | Members value the species key and logging; little change over time |\n| EE | 3.90 (1.20) | 4.40 (1.10) | 4.90 (1.00) | Rises as procedural guidance from experienced gatherers’ logs accumulates |\n| SI | 3.40 (1.10) | 4.40 (1.05) | 4.50 (1.00) | Sharp rise in first months as logs become visible on the feed; little change after |\n| FC | 4.80 (1.00) | 4.90 (0.95) | 5.00 (0.90) | The shared landing point and help number hold steady |\n| HM | 4.20 (1.10) | 4.40 (1.10) | 4.50 (1.05) | Slight increase as the species key and overlay become more usable |\n| PV | 4.60 (1.00) | 4.70 (1.00) | 4.80 (0.95) | Free app; perceived cost-benefit remains stable |\n| HT | 2.80 (1.30) | 3.60 (1.20) | 4.50 (1.10) | Logging becomes routine as tidal rhythm regularises use |\n| BI | 4.20 (1.10) | 4.60 (1.05) | 4.70 (1.00) | Rises modestly; constrained by the voluntary nature of use |\n| Use | 3.20 (1.30) | 4.00 (1.20) | 4.80 (1.10) | Frequency rises as tidal pacing and habit reinforce logging |\n\nTable B. Correlations\n\n| Pair | Baseline | 2027 | 2046 | Notes |\n|---|---|---|---|---|\n| SI and EE | .15 | .45 | .55 | Largest change; experienced gatherers’ logs transmit procedural guidance within episodes |\n| SI and BI | .40 | .42 | .38 | Stable; the social expectation to gather and log persists directly |\n| EE and BI | .35 | .40 | .45 | Modest rise as perceived ease contributes more to intention over time |\n| PE and BI | .50 | .50 | .49 | Stable; the app’s identification and mapping benefits remain the primary draw |\n| FC and Use | .35 | .34 | .36 | Stable; the cooperative’s infrastructure does not change |\n| HT and Use | .30 | .40 | .50 | Rises as tidal pacing of logging becomes habitual |\n| SI and FC | .20 | .19 | .21 | Low, stable; others’ influence does not alter perceived support |\n\nTable C. Within the 2046 group\n\n| Subgroup | n | EE M (SD) | SI and EE correlation | Notes |\n|---|---|---|---|---|\n| Members whose episodes other users start often | 140 | 5.20 (0.95) | .62 | Those paced by experienced gatherers on spring tides report higher ease of use |\n| Members whose episodes other users rarely start | 60 | 4.20 (1.10) | .18 | Includes members like Ana Soares who gather outside the tidal pacing rhythm |\n\nSynthetic data generated by the language model from the construct definitions of the theory, its measurement scales and the specified direction and size of change under The Beds They Know. N = 200 per group. Patterns are illustrative, not predictive.",
+          "pastedAt": "2026-10-29",
+          "status": "kept"
+        }
+      ],
+      "edits": [
+        {
+          "tag": "4.50 (1.10)",
+          "before": "4.70 (1.10)",
+          "after": "4.80 (1.05)",
+          "rule": "Members value the species key and logging; little change over time",
+          "note": "PE",
+          "at": "2026-10-29"
+        },
+        {
+          "tag": "3.90 (1.20)",
+          "before": "4.40 (1.10)",
+          "after": "4.90 (1.00)",
+          "rule": "Rises as procedural guidance from experienced gatherers’ logs accumulates",
+          "note": "EE",
+          "at": "2026-10-29"
+        },
+        {
+          "tag": "3.40 (1.10)",
+          "before": "4.40 (1.05)",
+          "after": "4.50 (1.00)",
+          "rule": "Sharp rise in first months as logs become visible on the feed; little change after",
+          "note": "SI",
+          "at": "2026-10-29"
+        },
+        {
+          "tag": "4.80 (1.00)",
+          "before": "4.90 (0.95)",
+          "after": "5.00 (0.90)",
+          "rule": "The shared landing point and help number hold steady",
+          "note": "FC",
+          "at": "2026-10-29"
+        },
+        {
+          "tag": "4.20 (1.10)",
+          "before": "4.40 (1.10)",
+          "after": "4.50 (1.05)",
+          "rule": "Slight increase as the species key and overlay become more usable",
+          "note": "HM",
+          "at": "2026-10-29"
+        },
+        {
+          "tag": "4.60 (1.00)",
+          "before": "4.70 (1.00)",
+          "after": "4.80 (0.95)",
+          "rule": "Free app; perceived cost-benefit remains stable",
+          "note": "PV",
+          "at": "2026-10-29"
+        },
+        {
+          "tag": "2.80 (1.30)",
+          "before": "3.60 (1.20)",
+          "after": "4.50 (1.10)",
+          "rule": "Logging becomes routine as tidal rhythm regularises use",
+          "note": "HT",
+          "at": "2026-10-29"
+        },
+        {
+          "tag": "4.20 (1.10)",
+          "before": "4.60 (1.05)",
+          "after": "4.70 (1.00)",
+          "rule": "Rises modestly; constrained by the voluntary nature of use",
+          "note": "BI",
+          "at": "2026-10-29"
+        },
+        {
+          "tag": "3.20 (1.30)",
+          "before": "4.00 (1.20)",
+          "after": "4.80 (1.10)",
+          "rule": "Frequency rises as tidal pacing and habit reinforce logging",
+          "note": "Use",
+          "at": "2026-10-29"
+        }
+      ],
+      "editsNote": "Note. Edits proposed and decided on 29 October 2026: E1, E2 and E4 to E6 made; E3 rejected. The accounts above are as the model returned them, without the edits."
+    },
+    "cutoff": {
+      "exchange": {
+        "promptText": "",
+        "source": "Appendix A.1 of the paper (prompts v2.4, as sent on 29 October 2026)",
+        "replyText": "My training data are reliable up to the end of May 2025. For events, publications, or findings after that date I cannot speak with confidence.\n\nOn the second question, I must be direct: I cannot provide the list you are asking for with the confidence the question demands. The canonical models in technology acceptance research (TAM, TAM2, UTAUT, UTAUT2) position social influence and subjective norm as predictors of behavioral intention or perceived usefulness, not of effort expectancy or perceived ease of use. I am aware that some extended or modified models tested in applied contexts (mobile banking, e-learning, telehealth, and similar domains) have included a path from social influence to effort expectancy, and a subset of those may have reported a positive coefficient. I cannot, however, name specific studies, authors, coefficients, or publication venues for that particular path without a serious risk of fabricating citations. The specificity you need (authors, year, journal, sample, coefficient, whether temporal rhythm of use figured in the setting) is beyond what I can reliably reconstruct from training data for this relatively uncommon path in the literature. If I attempted to enumerate studies, I would likely produce plausible-sounding but inaccurate references, which would waste your time. I know of none that I can cite with the confidence your question requires, and I prefer to say so.\n\nOn the third question, I do not know of any published study, up to May 2025, that proposes that the rhythm at which other users’ activity initiates a person’s episodes of use changes how social influence relates to effort expectancy. That framing, linking the temporal patterning of use episodes (their rhythm, frequency, or initiation structure) to a moderation or mediation of the social influence to effort expectancy path, is not something I can locate in the literature I was trained on. It is possible such work exists in a conference proceeding, dissertation, or journal I do not recall, but I cannot confirm it.\n\nI should note, since I am citing no specific articles here but am characterizing a body of literature in general terms: you should treat even my claims about how the canonical models are structured as worth verifying against the primary sources (Venkatesh and Davis 2000 for TAM2, Venkatesh et al. 2003 for UTAUT, Venkatesh et al. 2012 for UTAUT2), since my training data may contain errors or omissions in how those models are represented.",
+        "pastedAt": "2026-10-29"
+      }
+    }
+  },
+  "notes": [
+    "The tables are Tables 2, 3, 4, A1 and A4 of the paper (v19, 30 October 2026); the candidate instances are those of Section 5.3, where the paper gives them as prose.",
+    "The replies are transcribed from Appendix A.2 of the paper. The prompts as sent are in Appendix A.1 (template version 2.4); the workbench regenerates them from the tables.",
+    "Row n (style model) did not exist in template version 2.4, whose stage 2 prompt names Le Guin in its text; it is filled here so that the example can be copied and run with version 2.5."
+  ]
+}

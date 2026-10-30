@@ -1,0 +1,47 @@
+SLOT VALUES
+T_NAME: The extended unified theory of acceptance and use of technology (UTAUT2; Venkatesh, Thong and Xu, 2012)
+T_UNIT: the individual consumer
+T_CONSTRUCTS: Performance Expectancy (PE): the degree to which using a technology will provide benefits to consumers in performing certain activities.
+Effort Expectancy (EE): the degree of ease associated with consumers' use of technology.
+Social Influence (SI): the extent to which consumers perceive that important others (e.g., family and friends) believe they should use a particular technology.
+Facilitating Conditions (FC): consumers' perceptions of the resources and support available to perform a behaviour.
+Hedonic Motivation (HM): the fun or pleasure derived from using a technology.
+Price Value (PV): consumers' cognitive trade-off between the perceived benefits of the application and the monetary cost of using it.
+Habit (HT): the extent to which people tend to perform behaviours automatically because of learning.
+Behavioural Intention (BI): the degree to which a person has formulated conscious plans to use the technology.
+Use: frequency and variety of use of the technology.
+T_RELATIONSHIPS: all positive: PE → BI; EE → BI; SI → BI; FC → BI; FC → Use; HM → BI; PV → BI; HT → BI; HT → Use; BI → Use. The theory posits no paths among PE, EE, SI, FC, HM, PV and HT.
+T_MODERATORS: age and gender (PE → BI); age, gender and experience (EE → BI; SI → BI; FC → BI; HM → BI; HT → BI; HT → Use); age and experience (FC → Use); age and gender (PV → BI); experience (BI → Use). Experience is measured as time since first use.
+T_SCOPE: voluntary use of consumer technology.
+T_TERMS_TO_EXCLUDE: social influence, effort expectancy, performance expectancy, facilitating conditions, hedonic motivation, price value, habit (as a term), intention, UTAUT
+R: the direct effect of Social Influence on Behavioural Intention.
+C_DIMENSION: rhythm, cycle and entrainment
+C_SCALE: micro
+C_CONCEPTION: process time
+C_CONCEPTION_DEFINITION: Process time is counted by events and activities, here by episodes of use, and not by the hours of the clock.
+C_TEXT: Use of the technology recurs in step, strongly or partially, with other users’ attention and interruption rhythms (Rennecker & Godwin, 2005; Addas & Pinsonneault, 2018)
+R_PRIME: under C, the effect of Social Influence on Behavioural Intention becomes partially mediated by Effort Expectancy. A new positive path from SI to EE appears, and the direct path from SI to BI becomes weaker but stays positive.
+M: pacing by other users. When the attention and interruption of another user start an episode of use, guidance from experienced users arrives within that episode. The social signal then contains help in using the technology as well as the expectation that one should use it, and that help changes how easy the technology seems. The more closely a user's use keeps step with other users' rhythms, the larger the share of episodes that hold such guidance.
+EXCLUDED_CAUSES: trust in other users; users depending on one another for the system to work; a crisis, disaster, outage or other shock; an employer, contract or other obligation
+OBVIOUS_SETTINGS: a personal app on which a friend's logged activity sends the person a push notification, as in apps for fitness tracking, casual word and puzzle games, language learning, amateur music making and plant care; and email or instant messaging at work, the settings of the studies cited in C
+C_SCENE_REQUIREMENT: the episode begins when another member's activity interrupts the person (a message, a request, an action or a trace the person can see), at a rhythm set by that member's own attention
+DISTINCTION_TO_KEEP: Both kinds of social signal, kept distinct: the expectation of others that the person should use the technology, and help in using it, with the help arriving inside the episode.
+WHAT_OF_R_REMAINS: Some sign that the expectations of others still bear directly on whether people keep using the technology.
+H1: 2027
+H1_DESCRIPTION: the first months after the people in it begin to use the technology.
+H2: 2046
+H2_DESCRIPTION: when the pattern has settled.
+STYLE_MODEL: Ursula K. Le Guin, Always Coming Home (1985), in its ethnographic register
+BASELINE_GROUP: members of a comparable society who began to use the same technology in a single decision and whose use other users do not pace, measured in 2027.
+MEASUREMENT: All constructs are measured on seven-point scales with the theory's items; Use is reported frequency of use on a seven-point scale.
+TABLE_A_SPEC: Rows: PE, EE, SI, FC, HM, PV, HT, BI, Use.
+Specification: standard deviations between 0.9 and 1.5. EE rises from baseline to 2027 and again to 2046, by about 0.5 points each step. SI rises by about 1.0 point from baseline to 2027 and little after. HT and Use rise across the three groups. FC stays within 0.3 points of baseline. PE, HM and PV stay within 0.4 points of baseline. BI rises by no more than 0.6 points in all.
+TABLE_B_SPEC: Rows, in this order: SI and EE; SI and BI; EE and BI; PE and BI; FC and Use; HT and Use; SI and FC.
+Specification: SI and EE shows the largest change, from about .10 to .20 at baseline, to about .40 to .50 in 2027, and to about .50 to .60 in 2046. SI and BI stays near .40 in all three groups (within .05). EE and BI rises modestly, from about .35 to about .45. PE and BI stays near .50. FC and Use stays near .35. HT and Use rises from about .30 to about .50. SI and FC stays low and stable, near .20. In every column, the SI and BI correlation must be larger than the product of the SI and EE correlation and the EE and BI correlation, so that the direct path from SI to BI stays positive.
+TABLE_C_COLUMNS: EE M (SD); SI and EE correlation
+TABLE_C_SPEC: Rows: members whose episodes other users start often (n = 140); members whose episodes other users rarely start (n = 60).
+Specification: the second subgroup has an EE mean within 0.3 points of the baseline group and an SI and EE correlation below .25.
+PRIOR_EVIDENCE: a positive effect of social influence or subjective norm on effort expectancy or perceived ease of use, in research on the acceptance and use of technology
+TEMPORAL_FEATURE: the timing, frequency or rhythm of use
+PROPOSAL: the degree to which a person's use of a technology keeps step with other users' attention and interruption rhythms changes how social influence relates to effort expectancy
+END SLOT VALUES

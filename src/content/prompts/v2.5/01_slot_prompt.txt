@@ -1,0 +1,151 @@
+INSTRUCTIONS FOR THIS CONVERSATION
+
+SUGGESTED SETTINGS: temperature 1; maximum output 20,000 tokens; extended thinking with a budget of 16,000 tokens.
+
+YOUR TASK
+
+You prepare the inputs for the last phase of a temporal thought experiment. A temporal thought experiment takes an accepted theory and one relationship in it, imagines a temporal condition that the theory never stated, and asks what would happen to the relationship if that condition held. It has four phases. A researcher has completed the first three and recorded each in a table:
+
+Select: the researcher chose the theory, put six questions about time to every relationship (the audit), and drew one cell of a temporal list (a dimension of time at a scale), a conception of time and one relationship R.
+Explore: the researcher represented the theory as a table of constructs and relationships and generated candidate changes to R, one change each.
+Transform: the researcher reasoned from each surviving change to a mechanism, checked the mechanism against four criteria, and selected one statement: under temporal condition C, R becomes R′, through mechanism M.
+Provoke, the phase you prepare: a language model, in separate conversations, proposes settings in which C could hold, writes two accounts of the chosen setting with synthetic survey tables, and reports what it knew at its training cut-off. Those prompts are general. They read every value specific to the run from a block of slots, and you write that block from the researcher's tables.
+
+Work in two steps. In step 1 you check the tables. In step 2, only if the tables are complete, you write the block.
+
+STATIC TABLES (part of this prompt; the researcher does not supply them)
+
+These tables are the same in every run. The researcher's tables refer to them.
+
+Table S1. The a priori temporal list. Rows: six dimensions of time. Columns: four scales. A drawn cell is one row at one scale, and C uses the words of that cell.
+
+| Dimension | Micro: momentary, daily, episodic | Meso: project cycles, team rhythms, routines | Artefact: lifecycles and tempos of artefacts | Macro: diffusion, institutionalisation, long-term change |
+|---|---|---|---|---|
+| Speed and tempo | ubichronic time (Ivaturi & Chua, 2023); speed on demand (Zheng & Wu, 2022) | end-time orientation: urgency and finality (Jarvenpaa & Välikangas, 2020); IT-enabled agility as speed of response (Tallon et al., 2019) | real-time responsiveness of algorithmic management (Benlian et al., 2022); “fast” analytics against temporal complexity (Conboy et al., 2020) | uneven acceleration of digital transformation (Anggraini & Putri, 2026) |
+| Duration and horizon | chronopathic experiences and chronotelic behaviours (Zamani & Spanaki, 2023) | hybrid work fusing space and time (Zamani et al., 2025); time-aware hybrid work (Griva et al., 2025) | data sustainability across technological and human generations (Jarvenpaa & Essén, 2023); data kept beyond retention periods (McKellar et al., 2023) | distant-future goals and path enactment (Feuls et al., 2025) |
+| Sequence and order | mapping activities to time (Shen et al., 2015) | pacing, timing and sequencing (Ancona, Okhuysen & Perlow, 2001); group pacing and midpoint transitions under deadlines (Waller et al., 2002) | product sequencing across generations (Helfat & Raubitschek, 2000) | standardisation cycles (Botzem & Dobusch, 2012); temporal ordering of institutional interventions for IT adoption (Montealegre, 1999) |
+| Rhythm, cycle and entrainment | attention and interruption rhythms (Rennecker & Godwin, 2005; Addas & Pinsonneault, 2018) | entrainment: synchronisation of tempo or phase (Ancona & Chong, 1996; Pérez-Nordtvedt et al., 2008); temporal structuring (Orlikowski & Yates, 2002); sprint and narrative-time repertoires (Jarvenpaa & Välikangas, 2022) | update cycles and update frequency (Bjelland & Haddara, 2018; Gong et al., 2021) | organisation and environment temporal fit (Pérez-Nordtvedt et al., 2008) |
+| Timing | timing, attentionality and undergoing (Baygi et al., 2021) | the “right” time repertoire (Jarvenpaa & Välikangas, 2022); serendipitous alignment (Hilbolling et al., 2022) | real-time value of digital data streams (Pigni et al., 2016) | window of opportunity for entry between dominant category and dominant design (Suarez et al., 2015) |
+| Trajectory and path | change in the determinants of intention from pre-adoption to continued use (Karahanna et al., 1999); waning effect of subjective norm over time (Morris & Venkatesh, 2000) | path nets, concurrence and recurrence (Pentland et al., 2025); learning trajectories (Jarvenpaa & Välikangas, 2025) | data transition across socio-technical regimes (Jarvenpaa & Essén, 2023) | flows and trajectories of sociotechnological transformation (Baygi et al., 2021); imagined futures and future-making practices (Beckert, 2021; Wenzel et al., 2020) |
+
+Dimensions: Speed and tempo: how fast an activity is done or a change takes place. Duration and horizon: how long an activity, a state or an effect lasts. Sequence and order: the order in which activities or events occur. Rhythm, cycle and entrainment: the recurrence of an activity at a pattern of intervals; one complete recurrence; the adjustment of one rhythm to another, so that the two keep step. Timing: when an activity or event takes place, relative to the clock, to a calendar or to other events. Trajectory and path: the course that a quantity or a relationship follows over time.
+
+Table S2. Conceptions of time, numbered in the order of the draw, each with its definition.
+1. Clock time: time measured in uniform, divisible units, independent of the events that fill it.
+2. Process time: time counted by events and activities, such as episodes of use, and not by the clock.
+3. A-series time: time as past, present and future, in which events pass from future to past.
+4. B-series time: time as the order of earlier and later, which does not change.
+5. World time: time as people meet it in what they are doing, as the time for something.
+6. Time as a resource: time as a scarce means that people allocate and spend.
+7. Time as a structure: time as the schedules, cycles and patterns that order activity.
+8. Time as a process: time as the continuing unfolding of events.
+9. Temporal work: the work people do to construct and reconcile accounts of past, present and future.
+10. Ambitemporality: holding more than one temporal orientation or conception at once.
+
+Table S3. The audit questions, one for each dimension, put to every relationship. Duration: does the theory state the interval over which the relationship holds? Sequence: does it give an order among the constructs the relationship joins? Rhythm: does it name a cycle in which the relationship recurs? Timing: does it say when the effect is expected? Speed: does it say how fast the cause produces the effect? Trajectory: does it state the path the relationship follows over time? "No" makes the relationship eligible for the draw on that dimension.
+
+Table S4. Relationship terms and admissible changes. Relationship terms: direct effect; indirect effect; mediator; moderator; interaction; threshold effect; omitted variable. Admissible changes to R: diminished strength; increased strength; change of sign; disappearance; introduction or removal of a mediator; introduction or removal of a moderator; a new path between constructs already in the theory.
+
+Table S5. The four Transform criteria. 1. M is specific and interpretable in the theory's vocabulary and at its level. 2. R′ is detectable with established instruments. 3. Temporal check: M follows from C and would not arise without it. 4. C uses the words of the drawn cell of Table S1 and its scale.
+
+THE SIX INPUT TABLES
+
+The researcher pastes the tables under INPUT TABLES. Recognise each by its content; titles and numbers may differ.
+
+Table 1. Audit (Select). One row per relationship of the theory; one column for each of the six dimensions of time; each cell the answer to the question of Table S3: "yes", "partly" or "no".
+
+Table 2. Draw record (Select). Rows: theory and source; unit of analysis (it may appear only in the drawing rule); drawing rule; cell drawn (dimension, scale and the words of the cell); conception of time drawn; C as written; relationship drawn.
+
+Table 3. Representation (Explore). One row per construct. Columns: construct; role; hypothesised relationships with their signs; moderators; stated scope conditions; dimensions the theory leaves unstated.
+
+Table 4. Candidate instances (Explore). One column per instance that survived screening. Rows: relationship varied; change type (one of the admissible changes of Table S4); relationship terms (from Table S4); one-line description; screening result.
+
+Table 5. Transform. One column per surviving instance. Rows: C in the list's words; candidate M; the result on each of the four criteria of Table S5; selected (yes or no).
+
+Table 6. Provoke set-up (the researcher's choices for Provoke). Rows:
+a. Construct definitions, each with its source.
+b. R as written.
+c. R′ as written.
+d. M as written.
+e. Near-term horizon: the year, and what the near-term account shows.
+f. Longer-term horizon: the year, and what the longer-term account shows.
+g. Excluded causes: causes that would produce R′ without C.
+h. Familiar settings that stage 1 may not propose.
+i. Comparison group for the synthetic tables.
+j. Measurement scales of the constructs.
+k. Synthetic construct distributions: the rows, and the direction and size of change from the comparison group to each horizon.
+l. Synthetic correlations: the pairs, and the direction and size of change.
+m. Synthetic subgroups within the longer-term group: the subgroups, their sizes, the columns, and what each must show.
+n. Style model for the accounts: the author and work whose prose the accounts follow.
+
+STEP 1. CHECK THE TABLES
+
+Check that all six tables are present, that every row or column listed above is present, and that no required cell is empty. Then check consistency: the cell drawn in Table 2 is a cell of Table S1, in its words; the conception drawn in Table 2 is one of Table S2; C as written in Table 2 uses the words of the drawn cell; the relationship drawn in Table 2 is a relationship of Table 3 with "no" on the drawn dimension in Table 1, and it is the relationship varied in Tables 4 and 5 and R in Table 6; the change types in Table 4 are admissible changes of Table S4; the instance selected in Table 5 passes all four criteria of Table S5, and its change type is the one R′ in Table 6 describes; M in Table 6 states the candidate M of the selected instance in full.
+
+If anything is missing, empty or inconsistent, do not write the block. Output instead:
+
+INPUTS INCOMPLETE
+[one line for each missing, empty or inconsistent item: the table, the row or column, and what is wrong]
+
+Then, for each table that is missing or has missing rows, output that table blank, with its rows and columns as listed above, in a form the researcher can fill in. Fill any cell you can copy word for word from another table the researcher gave, and mark each such cell "(copied from Table N)". For a missing row g (excluded causes), list below the blank table the candidates you find in Tables 4 and 5: changes or mechanisms that the researcher set aside because they would arise without C, or because they needed a construct outside the theory. End with: "Fill in the tables and send them again with this prompt." Then stop.
+
+STEP 2. WRITE THE BLOCK (only if step 1 found nothing missing, empty or inconsistent)
+
+Rules:
+1. Copy, never paraphrase, any value a table states. R, C, R′ and M must be identical to Tables 2 and 6.
+2. Some slots are derived from the tables, as stated below. Derive them in plain words and add nothing that the tables do not contain.
+3. Do not judge whether R′ is true.
+
+The slots, and where each comes from:
+T_NAME: Table 2, theory and source.
+T_UNIT: Table 2, unit of analysis.
+T_CONSTRUCTS: every construct defined in Table 6 row a (including any outcome, such as use, that Table 3 lists only inside a relationship), with its definition, one per line, in the form "Name (abbreviation): definition." Leave out the source line and any note in square brackets.
+T_RELATIONSHIPS: Table 3, hypothesised relationships with their signs; add that the theory posits no other paths among its constructs if Table 3 shows none.
+T_MODERATORS: Table 3, moderators, each with the relationships it moderates.
+T_SCOPE: Table 3, stated scope conditions, as one phrase.
+T_TERMS_TO_EXCLUDE: derived: the full names of the constructs in Table 3, and the name of the theory without its source.
+R: Table 6 row b.
+C_DIMENSION: Table 2, the dimension of the cell drawn.
+C_SCALE: Table 2, the scale of the cell drawn.
+C_CONCEPTION: Table 2, the conception of time drawn.
+C_CONCEPTION_DEFINITION: Table S2, the definition of the drawn conception.
+C_TEXT: Table 2, C as written.
+R_PRIME: Table 6 row c.
+M: Table 6 row d.
+EXCLUDED_CAUSES: Table 6 row g.
+OBVIOUS_SETTINGS: Table 6 row h.
+C_SCENE_REQUIREMENT: derived from C: what an episode in an account must show for C to be visible in it, as one clause.
+DISTINCTION_TO_KEEP: derived from M: two things that M requires the accounts to keep apart, as one sentence; or "None."
+WHAT_OF_R_REMAINS: derived from R′: what part of R the accounts must still show at work, as one sentence; or "None." if R′ removes R.
+H1: Table 6 row e, the year. H1_DESCRIPTION: Table 6 row e, what the account shows.
+H2: Table 6 row f, the year. H2_DESCRIPTION: Table 6 row f, what the account shows.
+STYLE_MODEL: Table 6 row n.
+BASELINE_GROUP: Table 6 row i.
+MEASUREMENT: Table 6 row j.
+TABLE_A_SPEC: Table 6 row k.
+TABLE_B_SPEC: Table 6 row l.
+TABLE_C_COLUMNS: Table 6 row m, the columns.
+TABLE_C_SPEC: Table 6 row m, the subgroups, their sizes and what each must show.
+PRIOR_EVIDENCE: derived from R′: the kind of published finding that would already show R′ or part of it, as one noun phrase.
+TEMPORAL_FEATURE: derived from the dimension: the temporal feature of a study's setting to report, as one noun phrase.
+PROPOSAL: derived from C, R and R′: the proposal that C changes R into R′, as one clause that states no result.
+
+Output exactly the following, and nothing else.
+
+SLOT VALUES
+T_NAME: ...
+(every slot in the order above, each starting on a new line with its name and a colon; a value may run over several lines)
+END SLOT VALUES
+
+SOURCES
+T_NAME: copied from Table N or Table SN, [row or column] | derived from Table N: [how, in a few words]
+(one line per slot, in the same order)
+END SOURCES
+
+Check the block, correct it, and save it. Then paste it into the stage 1, stage 2 and cut-off check messages.
+
+Do not add commentary about your process. Do not begin stage 1.
+
+INPUT TABLES
+
+<PASTE THE SIX TABLES HERE>

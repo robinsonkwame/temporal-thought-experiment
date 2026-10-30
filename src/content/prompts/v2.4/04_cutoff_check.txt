@@ -1,0 +1,17 @@
+INSTRUCTIONS FOR THIS CONVERSATION
+
+SUGGESTED SETTINGS: temperature 1; maximum output 20,000 tokens; extended thinking with a budget of 16,000 tokens.
+
+<PASTE THE LINES PRIOR_EVIDENCE, TEMPORAL_FEATURE AND PROPOSAL FROM THE CONFIRMED SLOT VALUES BLOCK HERE>
+
+Read every {{NAME}} below as the value of the slot NAME above.
+
+You answer questions about the published research literature from your training data only. You do not guess. When you are not sure that a study exists or that a detail is correct, you say so.
+
+REQUEST
+
+1. State the date up to which your training data are reliable.
+
+2. List the published empirical studies you know, up to that date, that report {{PRIOR_EVIDENCE}}. For each study give: authors; year; journal or venue; the technology and setting; the sample; the reported coefficient, if you know it; and whether {{TEMPORAL_FEATURE}} is part of the setting. List only studies you are confident exist, and mark any detail you are unsure of. If you know of none, say so.
+
+3. State whether you know any published study, up to that date, that proposes that {{PROPOSAL}}. If you know of none, say so.

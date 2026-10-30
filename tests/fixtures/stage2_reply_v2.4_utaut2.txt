@@ -1,0 +1,92 @@
+PART 1. ACCOUNTS
+
+Account 1 (2027): Low Water, First Months
+
+[N1.1] The estuary at Foz da Várzea narrows between two sandstone bluffs and opens into a mile of tidal flats, the beds of cockles, razor clams, and oysters that the cooperative has harvested since the permits were first issued. At the landing point, a concrete ramp and a tin-roofed shed, someone has pinned a printed notice beside the tide table:
+
+Species-identification and harvest-logging app: all permit holders are asked to log each gathering session using the photograph tool, the bed-mapping overlay, and the quantity counter. Logs help the cooperative track bed health and report to the fisheries authority. Instructions and a help number are at the shed window.
+
+Most of the hundred and twenty permit holders downloaded the app in February. It is now April, and the spring tides of the equinox have drawn the water back further than at any point since the app was introduced.
+
+[N1.2] Marta Ferreira reaches the flats at twenty past six on a morning when the tide table shows a coefficient of 108. She has gathered on these beds for fourteen years and knows where the channels drain first. The water is still pulling back from the outer oyster beds when she crosses the sand with her boots and her rake, a cloth bag over one shoulder. She stops at the edge of the exposed rock, takes four photographs of the oyster clusters with the app's species key, and holds the phone close to the shells so the identification tool can compare the shape of the hinge. The app returns a confidence score for each specimen. She switches to the bed-mapping overlay, draws a boundary around the patch she can see, and pins it. Then she opens the quantity counter, sets the grid to two-metre squares, and taps a count into each square. The log, time-stamped 06:47, appears on the cooperative's shared feed.
+
+[N1.3] Celso Barbosa, who received his permit last autumn, is at his kitchen table forty minutes later when the notification reaches his phone. He opens the app. The log shows Marta's four photographs with the species-key results beside them, the mapped boundary of the bed with its pin, and the grid of counted squares. Celso has used the species key twice before, both times holding the phone too far from the shell and getting uncertain results. He sees that Marta took her photographs from about fifteen centimetres, close enough for the hinge to fill the frame. He did not know the grid in the quantity counter could be set to different sizes. The sequence in the log (photograph first, then map, then count) gives him something to follow. He puts on his boots and walks to the flats.
+
+[N1.4] By the time Celso reaches the bed Marta mapped, the tide has turned and the water is beginning to cover the outermost rock. He photographs five oyster clusters from the distance he saw in Marta's log. The species key returns higher confidence scores than he has seen before. He draws a boundary on the overlay, imitating the shape of Marta's pin, and counts into the grid squares. The features that seemed opaque to him two months ago now fall into a sequence he can repeat. When he finishes, he tells Dina Caldas, who is walking back from the clam beds with a half-full bag, that Marta's log "showed me how to hold the phone for the species key. I would not have worked that out from the instructions."
+
+[N1.5] Two weeks later the tides have weakened. On a grey morning with a coefficient of 72, Beatriz Lopes, who gathers mussels on the east channel, logs a session from a bed that is accessible only on moderate tides when the wind holds the water back from the rocks. Beatriz's log uses the species key in a way Dina has not tried: she photographs a cluster of mussels and a cluster of goose barnacles side by side, and the species key distinguishes them in a single frame. Dina sees the log over lunch, opens the app, and finds that the species key accepts multi-specimen photographs. She had assumed each photograph could hold only one species. The feature is easier than she expected once she has Beatriz's example in front of her.
+
+[N1.6] Celso Barbosa, recorded at the landing point, April 2027:
+
+"I look at the feed most mornings before I go out. If Marta or Beatriz has already logged, I know the beds are open and I know what they found. But I can also see which tools they used and how they used them. Last week Marta used the overlay to mark an area where the oysters were too small to take, and I did not know you could mark areas as closed. I learned that from her log, not from the help screen. The app makes more sense to me now than it did in February, and most of that is because I see what experienced gatherers do with it before I try it myself."
+
+[N1.7] On the next spring tide, the pattern is visible from the landing point. Marta reaches the outer beds before seven. Her log appears at quarter past. Beatriz logs from the east channel at half past. By eight, five or six less experienced gatherers have opened the app and are walking toward the beds that Marta and Beatriz mapped. Dina Caldas is among them. She goes to the mussel bed Beatriz logged. Another permit holder, Tomás Vieira, goes to Marta's oyster bed. No one walks to the cockle beds on the western side of the estuary, where no experienced gatherer has logged.
+
+[N1.8] Nuno Pires gathers on a different schedule. He prefers the neap tides, when the flats are quieter and the beds closest to shore hold enough razor clams for a morning's work. He opens the app infrequently, often finding logs from tides he was not present for. The species key and the counting tool remain unfamiliar to him. He photographs his clams at the end of a session rather than at the start, and the confidence scores are low because the shells are sandy and half-closed. He does not see other gatherers' logs in time to learn from them. The app's features seem, in his words, "designed for someone who is already out there when the tide drops."
+
+[N1.9] At the cooperative meeting in May, Tomás raises a concern. The outer oyster bed that Marta mapped on the spring tide received more gatherers in April than in any previous month. Two beds to the west, which hold cockles and small clams, were visited on only three mornings. Tomás says the logs pull people toward wherever the experienced gatherers go first. Marta replies that she logs what she finds, not where others should gather. Beatriz is quiet. After the meeting, Dina says to Celso at the ramp that she has noticed the same thing: she goes where the logs point her, because the logs teach her the app, and the app is easier to use on a bed someone else has already mapped.
+
+[N1.10] The cooperative has no answer for this in May. The tides do not pause while the members consider it. On the first spring tide of June, Marta's log appears at twenty to seven, and by eight the same cluster of gatherers is crossing the sand toward the same beds. The western cockle flats are empty.
+
+Account 2 (2046): The Beds They Know
+
+[N2.1] The estuary at Foz da Várzea has not changed its shape in nineteen years, though the sandbar at its mouth has shifted south and the mussel beds on the east channel have crept into deeper water. The landing point is the same concrete ramp and the same tin-roofed shed. The tide table is still posted on the wall. The notice about the harvest-logging app has been replaced by a laminated sheet, its corners curling, that lists the app's current features and a help number. About a hundred permit holders remain in the cooperative. The app is the way they log what they collect.
+
+[N2.2] On a spring tide in March, the water drops below the sandstone ledge before half past six. Three experienced gatherers log from three parts of the estuary within the first hour. Celso Barbosa, who has held his permit for twenty years and gathers cockles on the western flats, reaches his beds at quarter past six, photographs a sample with the species key, draws his boundary on the overlay, and runs the substrate tool that the app added four years ago. His log appears at 06:38. Inês Ferreira, Marta's daughter, who took over her mother's permit and learned the oyster beds by walking them since childhood, logs from the outer rock at 06:51. On the east channel, Graça Vieira photographs mussels and runs the quantity counter at 07:04.
+
+[N2.3] Rui Mendes, in his second year with a permit, sees the three logs on his phone while he is pulling on his boots at seven. He scrolls through them. Celso's log shows the substrate tool applied to a patch of coarse sand where the cockles cluster thickly: the tool's colour overlay marks the sediment grade, and the boundary is drawn to follow the edge of the grade rather than the edge of the water. Rui has not used the substrate tool. He sees that Celso selected the sand-analysis mode, not the mud-analysis mode, and that the grid for counting is set to half-metre squares on the cockle beds, smaller than the two-metre squares the app suggests by default. Rui walks to the western flats. By the time he reaches Celso's bed, the tide has turned. He opens the substrate tool, selects sand, and sets the grid to the size he saw in Celso's log. The tool, which had seemed to him a feature for specialists, now has a sequence he can follow.
+
+[N2.4] The same morning, Luísa Gomes, who received her permit last autumn, sees Inês Ferreira's log from the oyster beds. Inês photographed the oyster clusters with the updated species database, which since last spring can distinguish four local subspecies by the pattern of growth rings. Luísa has used the species key for mussels but not for oysters, and did not know the database could separate subspecies. Inês's log shows the phone held at the angle that catches the growth rings in the morning light. Luísa walks to the outer rock, photographs a cluster from the same angle, and the database returns a subspecies identification she has not seen before. She tells Rui later at the ramp that Inês's log "gave me the angle and the setting. The oyster key felt impossible until I saw her do it."
+
+[N2.5] The arrangement did not come about by decision. In the years after 2027, when the cooperative's members were all following Marta Ferreira's and Beatriz Lopes's logs to the same two beds, some of the gatherers who had learned the app through those logs began to gather on beds that Marta and Beatriz did not visit. Celso, who had learned the species key and the overlay from Marta's logs, found he preferred cockles and walked to the western flats. As he logged from there, other gatherers who opened the app on spring-tide mornings saw logs from the west as well as from the oyster beds and the east channel. The pacing spread. By 2035 or so, a spring tide produced logs from several parts of the estuary within the first hour, and a less experienced member opening the app saw a choice of beds, each with its own log and its own example of how the tools had been used.
+
+[N2.6] Rui Mendes, recorded at the landing point, March 2046:
+
+"I follow Celso's logs for the cockle beds. He logs early and his logs show me which tool to use and in what order. But I do not follow only Celso. If Inês has logged from the oyster beds and the tide is still low enough, I sometimes go there instead. The feed gives me two or three places to go and two or three ways of using the app. I am learning the cockle tools from Celso and the oyster tools from Inês, though not at the same pace. The app is easier now than it was in November. Most of that is from seeing what Celso does with it on the beds I am learning."
+
+[N2.7] When the app's species database was updated last spring to include the four local oyster subspecies, Inês was the first to log with it. Her log from the outer rock showed the new identification screen, the angle for the growth rings, and the way the results appeared. Within three tidal cycles, six members had used the new feature, each having seen it first in Inês's log or in a log by someone who had seen Inês's. The pattern by which a new feature enters the cooperative is the same pattern by which the app itself became usable: an experienced member, paced by the tides, logs with the feature, and the log starts another member's episode and shows them how to use it.
+
+[N2.8] Newcomers enter the same way. When Rui received his permit, he attended a morning at the landing point where Celso showed him the app's main screens. That introduction covered the basics but not the substrate tool, the grid settings, or the subspecies database. Those Rui learned in the weeks that followed, each time by opening the app after an experienced gatherer's log appeared on a falling tide. The cooperative posts no written guide to the app's advanced features. The guide is the feed.
+
+[N2.9] Ana Soares moved to the village five months ago and received her permit in January. She gathers when she can, often on weekday afternoons when the tide is moderate and the flats are quiet. She does not follow the spring-tide rhythm. When she opens the app, the feed shows logs from Celso, Inês, and Graça, each from a different bed, each using features she has not tried. She does not know which log to start with. The species key on cockles works differently from the species key on oysters, and the substrate tool appears in Celso's logs but not in Inês's. She has tried the species key once, on a mussel she found near the ramp, and the result was uncertain. She says the app is "full of things other people use that I have never been shown." She gathers with a hand rake and a paper tally sheet, and logs her sessions in the app as a total count without photographs.
+
+[N2.10] At the cooperative meeting in April, Graça mentions that three new permit holders joined in the past year and that all three log less than half as often as members who have held permits for more than two years. Celso says he offered to walk the cockle beds with Rui when Rui started, and that Rui picked up the rest from the feed. Rui confirms this. Ana, who is present, says nothing. After the meeting, she tells Luísa at the ramp that the problem is not the walk or the introduction. The problem is that the feed holds years of accumulated technique from many experienced gatherers in many parts of the estuary, and she cannot tell which log to follow on any given morning. She does not know whose rhythm to fall in with.
+
+[N2.11] The cooperative solved the crowding of beds by distributing the pacing across the estuary, and the distribution holds. Rui goes to the cockle beds, Luísa goes to the oyster rock, others go to the east channel, each following the experienced gatherer whose rhythm they have learned. The app is easier for all of them than it was in their first months. But the distribution that gives experienced and mid-career members their freedom leaves Ana, and the two other new permit holders, without a clear path in. The feed is full of examples. None of them, on any given tide, is clearly the first one to follow.
+
+PART 2. SYNTHETIC SURVEY TABLES
+
+Table A. Construct distributions
+
+| Construct | Baseline M (SD) | 2027 M (SD) | 2046 M (SD) | Notes |
+|---|---|---|---|---|
+| PE | 4.50 (1.10) | 4.70 (1.10) | 4.80 (1.05) | Members value the species key and logging; little change over time |
+| EE | 3.90 (1.20) | 4.40 (1.10) | 4.90 (1.00) | Rises as procedural guidance from experienced gatherers’ logs accumulates |
+| SI | 3.40 (1.10) | 4.40 (1.05) | 4.50 (1.00) | Sharp rise in first months as logs become visible on the feed; little change after |
+| FC | 4.80 (1.00) | 4.90 (0.95) | 5.00 (0.90) | The shared landing point and help number hold steady |
+| HM | 4.20 (1.10) | 4.40 (1.10) | 4.50 (1.05) | Slight increase as the species key and overlay become more usable |
+| PV | 4.60 (1.00) | 4.70 (1.00) | 4.80 (0.95) | Free app; perceived cost-benefit remains stable |
+| HT | 2.80 (1.30) | 3.60 (1.20) | 4.50 (1.10) | Logging becomes routine as tidal rhythm regularises use |
+| BI | 4.20 (1.10) | 4.60 (1.05) | 4.70 (1.00) | Rises modestly; constrained by the voluntary nature of use |
+| Use | 3.20 (1.30) | 4.00 (1.20) | 4.80 (1.10) | Frequency rises as tidal pacing and habit reinforce logging |
+
+Table B. Correlations
+
+| Pair | Baseline | 2027 | 2046 | Notes |
+|---|---|---|---|---|
+| SI and EE | .15 | .45 | .55 | Largest change; experienced gatherers’ logs transmit procedural guidance within episodes |
+| SI and BI | .40 | .42 | .38 | Stable; the social expectation to gather and log persists directly |
+| EE and BI | .35 | .40 | .45 | Modest rise as perceived ease contributes more to intention over time |
+| PE and BI | .50 | .50 | .49 | Stable; the app’s identification and mapping benefits remain the primary draw |
+| FC and Use | .35 | .34 | .36 | Stable; the cooperative’s infrastructure does not change |
+| HT and Use | .30 | .40 | .50 | Rises as tidal pacing of logging becomes habitual |
+| SI and FC | .20 | .19 | .21 | Low, stable; others’ influence does not alter perceived support |
+
+Table C. Within the 2046 group
+
+| Subgroup | n | EE M (SD) | SI and EE correlation | Notes |
+|---|---|---|---|---|
+| Members whose episodes other users start often | 140 | 5.20 (0.95) | .62 | Those paced by experienced gatherers on spring tides report higher ease of use |
+| Members whose episodes other users rarely start | 60 | 4.20 (1.10) | .18 | Includes members like Ana Soares who gather outside the tidal pacing rhythm |
+
+Synthetic data generated by the language model from the construct definitions of the theory, its measurement scales and the specified direction and size of change under The Beds They Know. N = 200 per group. Patterns are illustrative, not predictive.

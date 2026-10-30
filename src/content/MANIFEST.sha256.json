@@ -1,0 +1,14 @@
+{
+  "src/content/example_utaut2.json": "350e68fdd683c123aea9159fe2e8b5fbb3a28495e8f56cb7da0e0be7d3d1233f",
+  "src/content/static_tables.json": "b75200ee85b30903b62c1069f67c69acdc7a4fc597cbf13f6737f6dfafe45717",
+  "src/content/prompts/v2.4/01_slot_prompt.txt": "a97d74a2769249c5261c4eed001e590cabd17c902f250701718c3f8f92af1d5f",
+  "src/content/prompts/v2.4/02_stage1.txt": "49f46d935115ee639e75c2694bb78b4a97315ff12831f79673c53fbeb6c6d3e3",
+  "src/content/prompts/v2.4/03_stage2.txt": "18ffea802fe2e194d98aaf73604de3eeff5abf2025722b645115d084c1f7671d",
+  "src/content/prompts/v2.4/03_stage2_checklist.txt": "2ac30b9a689ed40431fe6107ce9814bd0a22c8ee427331dfbc8026ece364c2f5",
+  "src/content/prompts/v2.4/04_cutoff_check.txt": "5204e29dd1a154f43471d59069ad4812f1375d49061d516eee66d1bb6a3d4dd2",
+  "src/content/prompts/v2.5/01_slot_prompt.txt": "16734d3c95648da793128a7a1f6f4ad822484558e10a19c0c43d6a3e2f6a4fd1",
+  "src/content/prompts/v2.5/02_stage1.txt": "81a1f0a04eae0ef677ab72e26111dc1965c4c614daea7261f2001ee25c08fc5b",
+  "src/content/prompts/v2.5/03_stage2.txt": "84aebeaa7593108dabb8ec3d232258a80239be0138ae06275f2e5b1505d1a3f5",
+  "src/content/prompts/v2.5/03_stage2_checklist.txt": "9e80693313d2ec55d263996ca0b5be3a0e544a4a9a2808fd3f5e18ef5cffb8a2",
+  "src/content/prompts/v2.5/04_cutoff_check.txt": "5204e29dd1a154f43471d59069ad4812f1375d49061d516eee66d1bb6a3d4dd2"
+}

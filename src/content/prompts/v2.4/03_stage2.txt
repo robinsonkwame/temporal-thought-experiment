@@ -1,0 +1,141 @@
+INSTRUCTIONS FOR THIS CONVERSATION
+
+SUGGESTED SETTINGS: temperature 1; maximum output 20,000 tokens; extended thinking with a budget of 16,000 tokens.
+
+<PASTE THE CONFIRMED SLOT VALUES BLOCK FROM MESSAGE 1 HERE, FROM "SLOT VALUES" TO "END SLOT VALUES">
+
+Read every {{NAME}} below as the value of the slot NAME in the SLOT VALUES block above. 
+THE TASK: ONE STEP OF A TEMPORAL THOUGHT EXPERIMENT
+
+This conversation is one step of a temporal thought experiment. A temporal thought experiment takes an accepted theory and one relationship in it. It imagines a temporal condition that the theory never stated, and it asks what would happen to the relationship if that condition held. The experiment is destructive. Its purpose is to put in doubt the theory's unstated assumption that the relationship holds under any temporal condition.
+
+A researcher has fixed the theory, the relationship, the condition, the change and the mechanism, and has selected a setting. In this step you write two accounts of the setting and a set of synthetic survey tables. The accounts and the tables show what the stated change would look like if the condition held. The accounts describe; they do not explain. The tables are illustrative, not predictive. Your readers are researchers. Many of them do not read fiction, and they will quote single paragraphs of your accounts in a research paper.
+
+THE TEMPORAL DIMENSIONS, SCALES AND CONCEPTIONS OF TIME
+
+Speed: how fast an activity is done or a change takes place; the amount of activity or change per unit of time.
+Duration: how long an activity, a state or an effect lasts.
+Sequence: the order in which activities or events occur.
+Rhythm, cycle and entrainment: rhythm is the recurrence of an activity at a pattern of intervals; a cycle is one complete recurrence; entrainment is the adjustment of the pace or phase of one rhythm to another rhythm, so that the two keep step.
+Timing: when an activity or event takes place, relative to the clock, to a calendar or to other events.
+Trajectory and path: the course that a quantity or a relationship follows over time, with its direction, its form and its turning points.
+
+Micro scale: moments, days and single episodes of activity.
+Meso scale: the cycles of projects, the rhythms of teams and the routines of groups, over weeks to months.
+Artefact scale: the lifecycle and tempo of a digital artefact: its versions, updates, spread and retirement.
+Macro scale: diffusion, institutionalisation and long-term change, over years to decades.
+
+The drawn conception of time: {{C_CONCEPTION}}. {{C_CONCEPTION_DEFINITION}}
+
+THEORY (T)
+
+Name and source: {{T_NAME}}
+Unit of analysis: {{T_UNIT}}
+Constructs:
+{{T_CONSTRUCTS}}
+Relationships: {{T_RELATIONSHIPS}}
+Moderators: {{T_MODERATORS}}
+Scope stated by the theory: {{T_SCOPE}}
+
+THE STATEMENT
+
+Relationship varied (R): {{R}}
+Temporal condition (C), on the dimension "{{C_DIMENSION}}", at the {{C_SCALE}} scale, with time counted as {{C_CONCEPTION}}: {{C_TEXT}}
+Changed relationship (R′): {{R_PRIME}}
+Mechanism (M): {{M}}
+
+THE SELECTED SETTING (from stage 1, as written there)
+
+<PASTE THE CHOSEN SETTING FROM THE STAGE 1 OUTPUT HERE, ALL ITS LINES FROM THE SETTING TO THE TENSION>
+
+RULES
+
+1. Add no construct outside T. Add no condition outside C.
+2. The change must rest on the drawn dimension, {{C_DIMENSION}}. It may not rest on another dimension in the list above. {{DIMENSION_GUARD}}
+3. None of the following may be the reason why people use the technology or why the mechanism operates, because each would produce the change without C: {{EXCLUDED_CAUSES}}. Each may appear in the background of a setting, never as the cause of use or of the mechanism.
+4. The setting is the small society described above. Show the society beyond the named people: a shared place, a gathering, the work or the talk of members who are not named. The people a survey would measure are members of the society, as T defines its respondents.
+5. A rhythm that people do not set (ecological, tidal, animal, material, or the life of a device) may act only through the people or the activity that C names. It may not act on the focal person directly.
+6. Do not describe the setting as a response to a past event. Do not replace the technology or its provider within an account. Name technologies by function, not by brand.
+
+PART 1. TWO ACCOUNTS
+
+Account 1 is set in {{H1}}: {{H1_DESCRIPTION}}
+Account 2 is set in {{H2}}: {{H2_DESCRIPTION}}
+
+Write each account in the present tense of its year. Each account has 900 to 1,200 words in 8 to 12 paragraphs. Begin each paragraph with a tag on its own: [N1.1], [N1.2] ... for Account 1 and [N2.1], [N2.2] ... for Account 2. Give each account a short descriptive title. Name three to five people in each account. Account 2 may include an older version of a person from Account 1, or a relative.
+
+Each account must contain:
+a. At least three scenes, each an episode in which C is visible in what people do: {{C_SCENE_REQUIREMENT}}. Give the moment at which each episode happens.
+b. Within each episode, M at work: what exactly is shown, said or done, what the person then does with the device or the material, and how the task seems to the person before and after, in the person's own words or thoughts.
+c. {{DISTINCTION_TO_KEEP}}
+d. {{WHAT_OF_R_REMAINS}}
+e. One member of the society to whom C applies rarely or not at all, and how the technology seems to that person.
+
+Account 2 must also contain:
+f. How the arrangement renews itself: who now does what M describes and how they came to do it; how newcomers enter it; how something new (a feature, a device, a material) enters through the same pattern.
+
+THE ARC ACROSS THE TWO ACCOUNTS
+
+The selected setting ends with a tension that C produces in this society. Build the two accounts around it.
+In Account 1 the tension arises. The members feel it in at least one scene, and it is not resolved by the end of the account.
+In Account 2 the society has resolved the tension. The resolution comes from the way the society arranges itself under C, and from nothing else: never from a shock, an obligation, a new provider, a new rule imposed from outside, or a construct outside T. The resolution may not remove the change from R to R′; it must leave intact everything that the tables below specify for {{H2}}.
+The resolution produces a second tension, which Account 2 shows and leaves open. The person in item e is a likely place for it, but not the only one.
+
+To build the arc, think with the principles of inventive problem solving (TRIZ): treat the tension as a contradiction; look for a resolution that removes it without compromise, in which the society gets both things it values; expect every such resolution to produce a new problem of its own. This is a way to think. None of its vocabulary may appear in the accounts (see the style rules).
+
+STYLE OF THE ACCOUNTS
+
+Model: Ursula K. Le Guin, Always Coming Home (1985), in its ethnographic register: a small society described from close by, through its practices, its objects, its talk and the rhythms of its land, and through accounts its members give of themselves. Take from it the following. The voice of a careful observer who records what people do and say, and who does not interpret. A mix of forms: most paragraphs are the observer's description of scenes; one passage in each account is a first-person account by a member, as if recorded and transcribed, marked by its tag and a line naming the speaker; at most one short practical text of the society (a notice, an entry in a shared log, written instructions), given in full. The society's work and the rhythms of its land and materials shown as part of everyday life.
+
+Do not take from it: poems, songs, myths, ceremonies, maps or glossaries; invented words or an invented language; any name, place or term from the book. Do not set the accounts after a collapse or a catastrophe.
+
+Readability: write for a reader who does not read fiction. Use plain English. Each paragraph must make sense when it is quoted alone: name the person and the place again where needed, and do not depend on a reveal from an earlier paragraph. Use specific objects, screens, places, times of day and words spoken. Vary the length of sentences and paragraphs.
+
+Prohibitions, which take precedence over the style:
+Do not use any theoretical term in the accounts, including: {{T_TERMS_TO_EXCLUDE}}, theory, construct, variable, path, relationship (as a term), mediation, moderation, correlation, condition, mechanism, temporal, entrainment, dimension, scale.
+Do not use the vocabulary of inventive problem solving in the accounts, including: TRIZ, inventive, contradiction, principle (as a term), ideality, ideal final result, resource (as a term), segmentation, merging, inversion, intermediary, the other way round, another dimension, blessing in disguise, secondary problem.
+Give no statistics, no summary of what a scene means, and no closing moral. The observer states no lesson. The member's first-person account may state the member's own view, but not a lesson for the reader.
+Do not use em dashes. Do not use lists inside the prose. Avoid groups of three adjectives and promotional language.
+
+PART 2. SYNTHETIC SURVEY TABLES
+
+Three groups of N = 200 each:
+Baseline: {{BASELINE_GROUP}}
+{{H1}}: members under C, measured in {{H1}}.
+{{H2}}: members under C, measured in {{H2}}.
+
+{{MEASUREMENT}}
+
+Table A. Construct distributions
+Columns: Construct; Baseline M (SD); {{H1}} M (SD); {{H2}} M (SD); Notes (one line, tied to the accounts).
+{{TABLE_A_SPEC}}
+
+Table B. Correlations
+Columns: Pair; Baseline; {{H1}}; {{H2}}; Notes (one line).
+{{TABLE_B_SPEC}}
+
+Table C. Within the {{H2}} group
+Columns: Subgroup; n; {{TABLE_C_COLUMNS}}; Notes (one line).
+{{TABLE_C_SPEC}}
+
+End Part 2 with this sentence, filled in: "Synthetic data generated by the language model from the construct definitions of the theory, its measurement scales and the specified direction and size of change under [title of Account 2]. N = 200 per group. Patterns are illustrative, not predictive."
+
+OUTPUT FORMAT
+
+PART 1. ACCOUNTS
+Account 1 ({{H1}}): [title]
+[N1.1] ...
+Account 2 ({{H2}}): [title]
+[N2.1] ...
+
+PART 2. SYNTHETIC SURVEY TABLES
+[Table A]
+[Table B]
+[Table C]
+[Closing sentence]
+
+Do not add commentary about your process.
+
+REQUEST
+
+Write Part 1 and Part 2 for the selected setting, following the instructions above.

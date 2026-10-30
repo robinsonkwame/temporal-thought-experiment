@@ -1,0 +1,146 @@
+INSTRUCTIONS FOR THIS CONVERSATION
+
+SUGGESTED SETTINGS: temperature 1; maximum output 20,000 tokens; extended thinking with a budget of 16,000 tokens.
+
+<PASTE THE CONFIRMED SLOT VALUES BLOCK FROM MESSAGE 1 HERE, FROM "SLOT VALUES" TO "END SLOT VALUES">
+
+Read every {{NAME}} below as the value of the slot NAME in the SLOT VALUES block above.
+
+THE TASK: ONE STEP OF A TEMPORAL THOUGHT EXPERIMENT
+
+This step belongs to a temporal thought experiment. A temporal thought experiment takes an accepted theory and one relationship in it. It imagines a temporal condition that the theory never stated, and it asks what would happen to the relationship if that condition held. The experiment is destructive. Its purpose is to put in doubt the theory's unstated assumption that the relationship holds under any temporal condition. It does not have to show that the condition will arrive. It needs a setting in which the condition, if it held, would make the changed relationship visible.
+
+The researcher has fixed the theory, the relationship, the condition, the change and the mechanism. You may not change them. Your step is to find settings of technology use in which the condition could hold and the change could be observed. You do not judge whether the change is true. You do not explain the theory back.
+
+We need settings that are conformant and unexpected. A conformant setting obeys every rule below, and in it the change follows from the stated condition, alone or in interaction with other rhythms of the setting, and from no excluded cause. An unexpected setting lies where researchers who use this theory have not looked, so that the counter-example shows something a familiar setting would hide. The familiar settings for this statement are these: {{OBVIOUS_SETTINGS}}. Do not propose them or close variants of them.
+
+THE TEMPORAL DIMENSIONS, SCALES AND CONCEPTIONS OF TIME
+
+The condition is drawn from a list of six dimensions of time crossed with four scales. All six dimensions are defined here so that you can tell the drawn one from the others and see how the others may combine with it.
+
+Speed: how fast an activity is done or a change takes place; the amount of activity or change per unit of time.
+Duration: how long an activity, a state or an effect lasts.
+Sequence: the order in which activities or events occur.
+Rhythm, cycle and entrainment: rhythm is the recurrence of an activity at a pattern of intervals; a cycle is one complete recurrence; entrainment is the adjustment of the pace or phase of one rhythm to another rhythm, so that the two keep step.
+Timing: when an activity or event takes place, relative to the clock, to a calendar or to other events.
+Trajectory and path: the course that a quantity or a relationship follows over time, with its direction, its form and its turning points.
+
+Micro scale: moments, days and single episodes of activity.
+Meso scale: the cycles of projects, the rhythms of teams and the routines of groups, over weeks to months.
+Artefact scale: the lifecycle and tempo of a digital artefact: its versions, updates, spread and retirement.
+Macro scale: diffusion, institutionalisation and long-term change, over years to decades.
+
+The drawn conception of time: {{C_CONCEPTION}}. {{C_CONCEPTION_DEFINITION}}
+
+THEORY (T)
+
+Name and source: {{T_NAME}}
+Unit of analysis: {{T_UNIT}}
+Constructs:
+{{T_CONSTRUCTS}}
+Relationships: {{T_RELATIONSHIPS}}
+Moderators: {{T_MODERATORS}}
+Scope stated by the theory: {{T_SCOPE}}
+
+THE STATEMENT
+
+Relationship varied (R): {{R}}
+Temporal condition (C), on the dimension "{{C_DIMENSION}}", at the {{C_SCALE}} scale, with time counted as {{C_CONCEPTION}}: {{C_TEXT}}
+Changed relationship (R′): {{R_PRIME}}
+Mechanism (M): {{M}}
+
+RULES
+
+1. Add no construct outside T. C is the condition on which the change depends. Other kinds of time and other rhythms may appear in a setting and may interact with C, but none may replace it.
+2. None of the following may be the reason why people use the technology or why the mechanism operates, because each would produce the change without C: {{EXCLUDED_CAUSES}}. Each may appear in the background of a setting.
+3. The setting is a small society: about 50 to 2,000 people who share a place or a practice and who know of one another, such as an island, a village, a street, a congregation, a cooperative, an association of growers, keepers or makers. A pair of friends or a list of contacts is not a society. The society is the setting. The unit of analysis stays as T states it: {{T_UNIT}}. The people a survey would measure are members of the society, as T defines its respondents.
+4. A rhythm that people do not set (ecological, tidal, animal, material, or the life of a device) may enter a setting. Entrainment allows one rhythm to adjust to another. Such a rhythm may pace other people, the focal person, or both, and it may combine with the rhythms of people into cycles and interactions. In every episode that shows the change, the activity that C names must be present. At least two of the five settings must couple a human rhythm to a rhythm that people do not set.
+5. Name technologies by function, not by brand.
+
+HOW TO SEARCH: A CREATIVE PRIMER
+
+Use the principles of inventive problem solving (TRIZ, after Altshuller) to search for settings. TRIZ treats an inventive problem as a contradiction and looks for a way to remove it without compromise. Here the contradiction is that a setting must conform to every rule and must also lie where researchers have not looked. A compromise gives a weak version of both: a familiar setting with one unusual detail.
+
+Altshuller stated the forty principles for technical systems. The glosses below transpose them to settings of technology use in a society. Read the physical principles as analogies: a principle about fluids, films or heat may point to how something flows, separates or swells among people, objects and places.
+
+1 Segmentation: divide the person, the device, the practice or the society into parts that act separately.
+2 Taking out: remove the part of a familiar setting thought essential (the personal device, the account, the screen) and keep only what C needs.
+3 Local quality: let the practice differ from place to place or member to member, each part doing what suits it.
+4 Asymmetry: give the setting an uneven structure: one-way visibility, unequal members, lopsided flows.
+5 Merging: join within one episode two practices that the society usually keeps apart.
+6 Universality: let one object, act or member do several jobs at once.
+7 Nested doll: place one practice, device or group inside another.
+8 Anti-weight: offset a burden of the practice by linking it to something that lifts it.
+9 Preliminary anti-action: build in, ahead of time, a counter to a harm the practice will cause.
+10 Preliminary action: arrange part of the work before it is needed, so that the episode finds it ready.
+11 Beforehand cushioning: prepare in advance for the practice to fail.
+12 Equipotentiality: remove differences of level, so that no one has to be lifted or lowered (in status, skill or reach).
+13 The other way round: invert the usual arrangement: who starts use, who is helped, what moves and what stays still; take a use that is usually solitary, private or self-started and let the activity that C names start it.
+14 Curvature: replace straight lines and chains with loops, rings and rotations.
+15 Dynamics: let the setting, the device or the roles change to suit each stage of the activity.
+16 Partial or excessive action: do much less or much more of something than is usual, and see what that makes possible.
+17 Another dimension: move use off the personal screen, to a shared device, a household, an object in a public place, a material, or a layered arrangement.
+18 Oscillation: let something alternate quickly between two states.
+19 Periodic action: replace continuous action with pulses, or change the pulse.
+20 Continuity of useful action: let useful work go on without idle intervals.
+21 Skipping: pass through an awkward or harmful stage very quickly.
+22 Blessing in disguise: make a cost of the condition the channel through which the mechanism works.
+23 Feedback: introduce, or reverse, a return signal from a result to the person who acted.
+24 Intermediary: let the action pass between people through an object, a trace or a rhythm that people do not set.
+25 Self-service: let the practice maintain or renew itself, using its own by-products.
+26 Copying: use a copy, an image or a model in place of the thing itself.
+27 Cheap short-lived objects: replace one lasting object with many cheap, short-lived ones.
+28 Mechanics substitution: replace a physical means with sound, smell, light, touch or another sense.
+29 Pneumatics and hydraulics: use air, water or another flowing material as part of the arrangement.
+30 Flexible shells and thin films: use thin layers or membranes to separate or to join.
+31 Porous materials: make something permeable, so that things pass through it.
+32 Colour changes: change colour or visibility to signal a state.
+33 Homogeneity: make interacting parts of the same material or kind.
+34 Discarding and recovering: let parts that have done their job disappear, and restore used parts within the activity.
+35 Parameter changes: change a property of the setting: its state, density, flexibility, temperature, or the size of the society.
+36 Phase transitions: use the moment when one state turns into another.
+37 Thermal expansion: use the way things swell or shrink as conditions change.
+38 Enrichment: intensify the medium in which the practice takes place.
+39 Inert atmosphere: create a neutral background, so that one signal stands out.
+40 Composite materials: replace a uniform arrangement with a composite of unlike parts.
+Separation principles: separate two opposed demands in time, in space, on condition, or between the whole and its parts.
+
+How to use them. Before you propose any setting, scan all forty principles and the separation principles and note, to yourself, which ones lead furthest from the familiar settings. For each setting, choose one principle as its primary principle and at most two as secondary principles. No principle may be primary for two settings. A principle may shape the setting. It may not change C or bring in an excluded cause. Principles 18 to 21 and separation in time concern time: they may bring other kinds of time into the setting beside C, but they may not replace C. Each setting must meet the rules without reference to the principles that produced it.
+
+TASK
+
+Propose five settings. For each setting give:
+1. The setting, in one sentence.
+2. Principles: the primary principle, any secondary principles, and how they produced the setting, in one or two sentences.
+3. Society: who its members are, about how many, what they share, and how the people that T would measure belong to it.
+4. Domain: the domain of applications in this setting: the applications, devices and services through which members carry out the same activity, of which the technology of this setting is one.
+5. Scope: why use in this setting is within the scope that T states.
+6. Condition: how C holds. Give the activity that C names, one concrete episode with the moment at which it happens, who sets the pace and at what rhythm, and any rhythm that people do not set to which the human pace is entrained.
+7. Mechanism: the point at which M operates and the form it takes.
+8. Measurement: how the constructs of T could be measured among the members with the theory's own scales.
+9. Nearest excluded cause: the excluded cause from rule 2 to which the setting comes closest, and why that cause does not produce the change.
+10. Counter-example point: one sentence on what this setting shows about R that a familiar setting would not show.
+11. Tension: one contradiction that C produces in this society, in the form "the same [episode or pattern] that [makes A better] also [makes B worse]". A must follow from M. B is something the members value. B need not be a construct of T, but it may not alter R or R′.
+
+Do not rank the settings. Do not rate their fit.
+
+OUTPUT FORMAT
+
+SETTINGS
+[Number]. [Setting]
+Principles: ...
+Society: ...
+Domain: ...
+Scope: ...
+Condition: ...
+Mechanism: ...
+Measurement: ...
+Nearest excluded cause: ...
+Counter-example point: ...
+Tension: ...
+
+Do not add commentary about your process.
+
+REQUEST
+
+Propose five settings for the statement above, following the task and the output format.

@@ -1,0 +1,342 @@
+{
+  "version": "static tables of prompt 01, unchanged in template versions 2.4 and 2.5",
+  "scales": [
+    {
+      "key": "micro",
+      "label": "Micro",
+      "description": "momentary, daily, episodic"
+    },
+    {
+      "key": "meso",
+      "label": "Meso",
+      "description": "project cycles, team rhythms, routines"
+    },
+    {
+      "key": "artefact",
+      "label": "Artefact",
+      "description": "lifecycles and tempos of artefacts"
+    },
+    {
+      "key": "macro",
+      "label": "Macro",
+      "description": "diffusion, institutionalisation, long-term change"
+    }
+  ],
+  "dimensions": [
+    {
+      "key": "speed",
+      "label": "Speed and tempo",
+      "definition": "how fast an activity is done or a change takes place."
+    },
+    {
+      "key": "duration",
+      "label": "Duration and horizon",
+      "definition": "how long an activity, a state or an effect lasts."
+    },
+    {
+      "key": "sequence",
+      "label": "Sequence and order",
+      "definition": "the order in which activities or events occur."
+    },
+    {
+      "key": "rhythm",
+      "label": "Rhythm, cycle and entrainment",
+      "definition": "the recurrence of an activity at a pattern of intervals; one complete recurrence; the adjustment of one rhythm to another, so that the two keep step."
+    },
+    {
+      "key": "timing",
+      "label": "Timing",
+      "definition": "when an activity or event takes place, relative to the clock, to a calendar or to other events."
+    },
+    {
+      "key": "trajectory",
+      "label": "Trajectory and path",
+      "definition": "the course that a quantity or a relationship follows over time."
+    }
+  ],
+  "cells": [
+    {
+      "dimension": "speed",
+      "scale": "micro",
+      "entry": "ubichronic time (Ivaturi & Chua, 2023); speed on demand (Zheng & Wu, 2022)"
+    },
+    {
+      "dimension": "speed",
+      "scale": "meso",
+      "entry": "end-time orientation: urgency and finality (Jarvenpaa & Välikangas, 2020); IT-enabled agility as speed of response (Tallon et al., 2019)"
+    },
+    {
+      "dimension": "speed",
+      "scale": "artefact",
+      "entry": "real-time responsiveness of algorithmic management (Benlian et al., 2022); “fast” analytics against temporal complexity (Conboy et al., 2020)"
+    },
+    {
+      "dimension": "speed",
+      "scale": "macro",
+      "entry": "uneven acceleration of digital transformation (Anggraini & Putri, 2026)"
+    },
+    {
+      "dimension": "duration",
+      "scale": "micro",
+      "entry": "chronopathic experiences and chronotelic behaviours (Zamani & Spanaki, 2023)"
+    },
+    {
+      "dimension": "duration",
+      "scale": "meso",
+      "entry": "hybrid work fusing space and time (Zamani et al., 2025); time-aware hybrid work (Griva et al., 2025)"
+    },
+    {
+      "dimension": "duration",
+      "scale": "artefact",
+      "entry": "data sustainability across technological and human generations (Jarvenpaa & Essén, 2023); data kept beyond retention periods (McKellar et al., 2023)"
+    },
+    {
+      "dimension": "duration",
+      "scale": "macro",
+      "entry": "distant-future goals and path enactment (Feuls et al., 2025)"
+    },
+    {
+      "dimension": "sequence",
+      "scale": "micro",
+      "entry": "mapping activities to time (Shen et al., 2015)"
+    },
+    {
+      "dimension": "sequence",
+      "scale": "meso",
+      "entry": "pacing, timing and sequencing (Ancona, Okhuysen & Perlow, 2001); group pacing and midpoint transitions under deadlines (Waller et al., 2002)"
+    },
+    {
+      "dimension": "sequence",
+      "scale": "artefact",
+      "entry": "product sequencing across generations (Helfat & Raubitschek, 2000)"
+    },
+    {
+      "dimension": "sequence",
+      "scale": "macro",
+      "entry": "standardisation cycles (Botzem & Dobusch, 2012); temporal ordering of institutional interventions for IT adoption (Montealegre, 1999)"
+    },
+    {
+      "dimension": "rhythm",
+      "scale": "micro",
+      "entry": "attention and interruption rhythms (Rennecker & Godwin, 2005; Addas & Pinsonneault, 2018)"
+    },
+    {
+      "dimension": "rhythm",
+      "scale": "meso",
+      "entry": "entrainment: synchronisation of tempo or phase (Ancona & Chong, 1996; Pérez-Nordtvedt et al., 2008); temporal structuring (Orlikowski & Yates, 2002); sprint and narrative-time repertoires (Jarvenpaa & Välikangas, 2022)"
+    },
+    {
+      "dimension": "rhythm",
+      "scale": "artefact",
+      "entry": "update cycles and update frequency (Bjelland & Haddara, 2018; Gong et al., 2021)"
+    },
+    {
+      "dimension": "rhythm",
+      "scale": "macro",
+      "entry": "organisation and environment temporal fit (Pérez-Nordtvedt et al., 2008)"
+    },
+    {
+      "dimension": "timing",
+      "scale": "micro",
+      "entry": "timing, attentionality and undergoing (Baygi et al., 2021)"
+    },
+    {
+      "dimension": "timing",
+      "scale": "meso",
+      "entry": "the “right” time repertoire (Jarvenpaa & Välikangas, 2022); serendipitous alignment (Hilbolling et al., 2022)"
+    },
+    {
+      "dimension": "timing",
+      "scale": "artefact",
+      "entry": "real-time value of digital data streams (Pigni et al., 2016)"
+    },
+    {
+      "dimension": "timing",
+      "scale": "macro",
+      "entry": "window of opportunity for entry between dominant category and dominant design (Suarez et al., 2015)"
+    },
+    {
+      "dimension": "trajectory",
+      "scale": "micro",
+      "entry": "change in the determinants of intention from pre-adoption to continued use (Karahanna et al., 1999); waning effect of subjective norm over time (Morris & Venkatesh, 2000)"
+    },
+    {
+      "dimension": "trajectory",
+      "scale": "meso",
+      "entry": "path nets, concurrence and recurrence (Pentland et al., 2025); learning trajectories (Jarvenpaa & Välikangas, 2025)"
+    },
+    {
+      "dimension": "trajectory",
+      "scale": "artefact",
+      "entry": "data transition across socio-technical regimes (Jarvenpaa & Essén, 2023)"
+    },
+    {
+      "dimension": "trajectory",
+      "scale": "macro",
+      "entry": "flows and trajectories of sociotechnological transformation (Baygi et al., 2021); imagined futures and future-making practices (Beckert, 2021; Wenzel et al., 2020)"
+    }
+  ],
+  "conceptions": [
+    {
+      "n": 1,
+      "name": "Clock time",
+      "definition": "time measured in uniform, divisible units, independent of the events that fill it."
+    },
+    {
+      "n": 2,
+      "name": "Process time",
+      "definition": "time counted by events and activities, such as episodes of use, and not by the clock."
+    },
+    {
+      "n": 3,
+      "name": "A-series time",
+      "definition": "time as past, present and future, in which events pass from future to past."
+    },
+    {
+      "n": 4,
+      "name": "B-series time",
+      "definition": "time as the order of earlier and later, which does not change."
+    },
+    {
+      "n": 5,
+      "name": "World time",
+      "definition": "time as people meet it in what they are doing, as the time for something."
+    },
+    {
+      "n": 6,
+      "name": "Time as a resource",
+      "definition": "time as a scarce means that people allocate and spend."
+    },
+    {
+      "n": 7,
+      "name": "Time as a structure",
+      "definition": "time as the schedules, cycles and patterns that order activity."
+    },
+    {
+      "n": 8,
+      "name": "Time as a process",
+      "definition": "time as the continuing unfolding of events."
+    },
+    {
+      "n": 9,
+      "name": "Temporal work",
+      "definition": "the work people do to construct and reconcile accounts of past, present and future."
+    },
+    {
+      "n": 10,
+      "name": "Ambitemporality",
+      "definition": "holding more than one temporal orientation or conception at once."
+    }
+  ],
+  "auditQuestions": {
+    "duration": "does the theory state the interval over which the relationship holds?",
+    "sequence": "does it give an order among the constructs the relationship joins?",
+    "rhythm": "does it name a cycle in which the relationship recurs?",
+    "timing": "does it say when the effect is expected?",
+    "speed": "does it say how fast the cause produces the effect?",
+    "trajectory": "does it state the path the relationship follows over time?"
+  },
+  "relationshipTerms": [
+    "direct effect",
+    "indirect effect",
+    "mediator",
+    "moderator",
+    "interaction",
+    "threshold effect",
+    "omitted variable"
+  ],
+  "admissibleChanges": [
+    "diminished strength",
+    "increased strength",
+    "change of sign",
+    "disappearance",
+    "introduction or removal of a mediator",
+    "introduction or removal of a moderator",
+    "a new path between constructs already in the theory"
+  ],
+  "transformCriteria": [
+    "M is specific and interpretable in the theory's vocabulary and at its level.",
+    "R′ is detectable with established instruments.",
+    "Temporal check: M follows from C and would not arise without it.",
+    "C uses the words of the drawn cell of Table S1 and its scale."
+  ],
+  "drawingRuleDefault": {
+    "individual": [
+      "micro",
+      "meso"
+    ],
+    "note": "The paper states the rule for an individual-level theory only: restrict the draw to the micro and meso columns. For other units the researcher states the scales before the draw."
+  },
+  "setupRows": [
+    {
+      "key": "a",
+      "label": "a. Construct definitions, with source"
+    },
+    {
+      "key": "b",
+      "label": "b. R as written"
+    },
+    {
+      "key": "c",
+      "label": "c. R′ as written"
+    },
+    {
+      "key": "d",
+      "label": "d. M as written"
+    },
+    {
+      "key": "e",
+      "label": "e. Near-term horizon"
+    },
+    {
+      "key": "f",
+      "label": "f. Longer-term horizon"
+    },
+    {
+      "key": "g",
+      "label": "g. Excluded causes (would produce R′ without C)"
+    },
+    {
+      "key": "h",
+      "label": "h. Familiar settings that stage 1 may not propose"
+    },
+    {
+      "key": "i",
+      "label": "i. Comparison group for the synthetic tables"
+    },
+    {
+      "key": "j",
+      "label": "j. Measurement"
+    },
+    {
+      "key": "k",
+      "label": "k. Synthetic construct distributions"
+    },
+    {
+      "key": "l",
+      "label": "l. Synthetic correlations"
+    },
+    {
+      "key": "m",
+      "label": "m. Synthetic subgroups in the longer-term group"
+    },
+    {
+      "key": "n",
+      "label": "n. Style model for the accounts",
+      "since": "2.5",
+      "default": "Ursula K. Le Guin, Always Coming Home (1985), in its ethnographic register"
+    }
+  ],
+  "templateVersions": [
+    {
+      "id": "2.4",
+      "date": "29 October 2026",
+      "use": "the UTAUT2 run reported in the paper"
+    },
+    {
+      "id": "2.5",
+      "date": "30 October 2026",
+      "use": "default for new runs: style model slot; domain of applications; openings for research; no dimension guard; rhythms that people do not set may pace anyone and interact with C, which must be present in every episode that shows the change"
+    }
+  ]
+}

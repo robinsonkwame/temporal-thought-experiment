@@ -1,0 +1,87 @@
+All six tables are present, every required row and column is filled, and the consistency checks pass. The cell drawn (Rhythm, cycle and entrainment at micro scale, "attention and interruption rhythms") is a cell of Table S1 in its words. The conception drawn (process time) is conception 2 of Table S2. C as written uses the drawn cell's words. SI → BI is a relationship of Table 3 whose audit answer on Rhythm in Table 1 is "no," and it is the relationship varied in Tables 4 and 5 and R in Table 6. The change types in Table 4 (introduction of mediation, diminished strength, removal of moderation) are admissible changes of Table S4. Instance A, the selected instance in Table 5, passes all four criteria of Table S5, and its change type (introduction of mediation, new path SI → EE) is the one R′ in Table 6 describes. M in Table 6 states Instance A's candidate mechanism in full.
+
+SLOT VALUES
+T_NAME: UTAUT2 (Venkatesh et al., 2012)
+T_UNIT: individual
+T_CONSTRUCTS:
+Performance Expectancy (PE): the degree to which using a technology will provide benefits to consumers in performing certain activities.
+Effort Expectancy (EE): the degree of ease associated with consumers' use of technology.
+Social Influence (SI): the extent to which consumers perceive that important others (e.g., family and friends) believe they should use a particular technology.
+Facilitating Conditions (FC): consumers' perceptions of the resources and support available to perform a behaviour.
+Hedonic Motivation (HM): the fun or pleasure derived from using a technology.
+Price Value (PV): consumers' cognitive trade-off between the perceived benefits of the application and the monetary cost of using it.
+Habit (HT): the extent to which people tend to perform behaviours automatically because of learning.
+Behavioural Intention (BI): the degree to which a person has formulated conscious plans to use the technology.
+Use: frequency and variety of use of the technology.
+T_RELATIONSHIPS: PE → BI (+); EE → BI (+); SI → BI (+); FC → BI (+); FC → Use (+); HM → BI (+); PV → BI (+); HT → BI (+); HT → Use (+); BI → Use (+). The theory posits no other paths among its constructs.
+T_MODERATORS: Age moderates PE → BI, EE → BI, SI → BI, FC → BI, FC → Use, HM → BI, PV → BI, HT → BI, HT → Use. Gender moderates PE → BI, EE → BI, SI → BI, FC → BI, HM → BI, PV → BI, HT → BI, HT → Use. Experience moderates EE → BI, SI → BI, FC → BI, FC → Use, HM → BI, HT → BI, HT → Use, BI → Use.
+T_SCOPE: voluntary use in a consumer context
+T_TERMS_TO_EXCLUDE: Performance Expectancy, Effort Expectancy, Social Influence, Facilitating Conditions, Hedonic Motivation, Price Value, Habit, Behavioural Intention, Use, UTAUT2
+R: the direct effect of Social Influence on Behavioural Intention.
+C_DIMENSION: Rhythm, cycle and entrainment
+C_SCALE: micro
+C_CONCEPTION: process time
+C_CONCEPTION_DEFINITION: time counted by events and activities, such as episodes of use, and not by the clock.
+C_TEXT: Use of the technology recurs in step, strongly or partially, with other users' attention and interruption rhythms (Rennecker & Godwin, 2005; Addas & Pinsonneault, 2018)
+R_PRIME: under C, the effect of Social Influence on Behavioural Intention becomes partially mediated by Effort Expectancy. A new positive path from SI to EE appears, and the direct path from SI to BI becomes weaker but stays positive.
+M: pacing by other users. When the attention and interruption of another user start an episode of use, guidance from experienced users arrives within that episode. The social signal then contains help in using the technology as well as the expectation that one should use it, and that help changes how easy the technology seems. The more closely a user's use keeps step with other users' rhythms, the larger the share of episodes that hold such guidance.
+DIMENSION_GUARD: A reader could most easily mistake the drawn dimension for speed and tempo or for timing. The change depends on recurrence of use at intervals that keep step with other users' rhythms, not on how fast use happens or on when a single episode takes place relative to the clock or calendar.
+EXCLUDED_CAUSES: trust in other users; users depending on one another for the system to work; a crisis, disaster, outage or other shock; an employer, contract or other obligation; a calendar schedule, booked session, fixed cycle or deadline (a season or another rhythm that people do not set may pace other users' activity under rule 5, but may not itself start the focal person's episodes)
+OBVIOUS_SETTINGS: a personal app on which a friend's logged activity sends the person a push notification, as in apps for fitness tracking, casual word and puzzle games, language learning, amateur music making and plant care; and email or instant messaging at work, the settings of the studies cited in C
+C_SCENE_REQUIREMENT: the focal person's episode of use begins because another user's activity starts it, and such starts recur at the rhythm of other users' attention and interruptions
+DISTINCTION_TO_KEEP: The accounts must keep apart the social expectation that one should use the technology and the procedural guidance that arrives within the same episode.
+WHAT_OF_R_REMAINS: The accounts must still show Social Influence affecting Behavioural Intention directly, though the effect is weaker because part of its force now passes through Effort Expectancy.
+H1: 2027
+H1_DESCRIPTION: the first months after the people in it begin to use the technology.
+H2: 2046
+H2_DESCRIPTION: when the pattern has settled.
+BASELINE_GROUP: members of a comparable society who began to use the same technology in a single decision and whose use other users do not pace, measured in 2027.
+MEASUREMENT: All constructs are measured on seven-point scales with the theory's items; Use is reported frequency of use on a seven-point scale.
+TABLE_A_SPEC: Rows: PE, EE, SI, FC, HM, PV, HT, BI, Use.
+Specification: standard deviations between 0.9 and 1.5. EE rises from baseline to 2027 and again to 2046, by about 0.5 points each step. SI rises by about 1.0 point from baseline to 2027 and little after. HT and Use rise across the three groups. FC stays within 0.3 points of baseline. PE, HM and PV stay within 0.4 points of baseline. BI rises by no more than 0.6 points in all.
+TABLE_B_SPEC: Rows, in this order: SI and EE; SI and BI; EE and BI; PE and BI; FC and Use; HT and Use; SI and FC.
+Specification: SI and EE shows the largest change, from about .10 to .20 at baseline, to about .40 to .50 in 2027, and to about .50 to .60 in 2046. SI and BI stays near .40 in all three groups (within .05). EE and BI rises modestly, from about .35 to about .45. PE and BI stays near .50. FC and Use stays near .35. HT and Use rises from about .30 to about .50. SI and FC stays low and stable, near .20. In every column, the SI and BI correlation must be larger than the product of the SI and EE correlation and the EE and BI correlation, so that the direct path from SI to BI stays positive.
+TABLE_C_COLUMNS: EE M (SD); SI and EE correlation
+TABLE_C_SPEC: members whose episodes other users start often (n = 140); members whose episodes other users rarely start (n = 60). Specification: the second subgroup has an EE mean within 0.3 points of the baseline group and an SI and EE correlation below .25.
+PRIOR_EVIDENCE: findings that social influence affects effort expectancy or that effort expectancy mediates the relationship between social influence and behavioural intention
+TEMPORAL_FEATURE: the rhythm of use and whether participants' episodes were entrained to other users' activity
+PROPOSAL: that when use of the technology recurs in step with other users' attention and interruption rhythms, the direct effect of Social Influence on Behavioural Intention becomes partially mediated by Effort Expectancy
+END SLOT VALUES
+
+SOURCES
+T_NAME: copied from Table 2, row "Theory and source"
+T_UNIT: copied from Table 2, row "Drawing rule" (unit of analysis stated inside the rule as "individual")
+T_CONSTRUCTS: copied from Table 6, row a (definitions only, source line omitted)
+T_RELATIONSHIPS: copied from Table 3, column "Hypothesised Relationship," all rows; no unlisted paths found
+T_MODERATORS: copied from Table 3, column "Moderators," reorganised by moderator with the relationships each moderates
+T_SCOPE: copied from Table 3, column "Stated scope conditions," combined into one phrase
+T_TERMS_TO_EXCLUDE: derived from Table 3 and Table 2: full names of every construct in Table 3 plus Use from Table 6 row a, and the theory name without its source
+R: copied from Table 6, row b
+C_DIMENSION: copied from Table 2, row "Cell drawn" (dimension component)
+C_SCALE: copied from Table 2, row "Cell drawn" (scale component)
+C_CONCEPTION: copied from Table 2, row "Conception of time drawn"
+C_CONCEPTION_DEFINITION: copied from Table S2, conception 2
+C_TEXT: copied from Table 2, row "C as written"
+R_PRIME: copied from Table 6, row c
+M: copied from Table 6, row d
+DIMENSION_GUARD: derived from Table S1 and C: named the dimensions whose definitions overlap most with the drawn dimension and stated what the change depends on instead
+EXCLUDED_CAUSES: copied from Table 6, row g
+OBVIOUS_SETTINGS: copied from Table 6, row h
+C_SCENE_REQUIREMENT: derived from C: restated what an episode must show for entrainment to other users' rhythms to be visible
+DISTINCTION_TO_KEEP: derived from M: the social expectation (SI proper) versus the procedural guidance that changes perceived ease (the new SI → EE path)
+WHAT_OF_R_REMAINS: derived from R′: the direct SI → BI path stays positive though weaker
+H1: copied from Table 6, row e (year)
+H1_DESCRIPTION: copied from Table 6, row e (what the account shows)
+H2: copied from Table 6, row f (year)
+H2_DESCRIPTION: copied from Table 6, row f (what the account shows)
+BASELINE_GROUP: copied from Table 6, row i
+MEASUREMENT: copied from Table 6, row j
+TABLE_A_SPEC: copied from Table 6, row k
+TABLE_B_SPEC: copied from Table 6, row l
+TABLE_C_COLUMNS: copied from Table 6, row m (columns)
+TABLE_C_SPEC: copied from Table 6, row m (subgroups, sizes, and what each must show)
+PRIOR_EVIDENCE: derived from R′: the kind of published finding that would show R′ or part of it, as one noun phrase
+TEMPORAL_FEATURE: derived from the dimension: the temporal feature of a study's setting to report, as one noun phrase
+PROPOSAL: derived from C, R and R′: the conditional proposal stated as one clause without asserting a result
+END SOURCES
+```
