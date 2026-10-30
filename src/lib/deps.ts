@@ -1,12 +1,14 @@
 // Out-of-date marking between steps (brief, section 6.0). Later work is never deleted, only marked.
 import type { Run } from './types';
 
-export type ChangeKind = 'edit' | 'draw' | 'style' | 'confirm' | 'choose';
+/** 'none' is a change that makes nothing out of date, such as a log entry or "Mark as checked". */
+export type ChangeKind = 'edit' | 'draw' | 'style' | 'confirm' | 'choose' | 'none';
 
 const range = (a: number, b: number) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
 
 /** The steps that a change makes out of date. */
 export function dependents(step: number, kind: ChangeKind = 'edit'): number[] {
+  if (kind === 'none') return [];
   if (kind === 'confirm') return range(10, 14);
   if (kind === 'choose') return [11, 12, 14];
   if (kind === 'style') return range(9, 14);
